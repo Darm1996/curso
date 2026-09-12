@@ -1,0 +1,167 @@
+/* Certificado Contave — hoja de estilo del PDF
+   Marca: navy #0B1120 · verde #00E68A · dorado #F6B101 · gris #94A3B8 */
+
+:root {
+  --navy: #0B1120;
+  --navy-80: #1B2438;
+  --verde: #00E68A;
+  --dorado: #F6B101;
+  --gris: #94A3B8;
+  --gris-linea: #D8DEE9;
+  --blanco: #FFFFFF;
+  --tinta: #101827;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+  color: var(--tinta);
+  font-size: 10.5pt;
+  line-height: 1.55;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+p { margin: 0 0 0.75em; text-align: justify; hyphens: auto; }
+strong { font-weight: 700; }
+em { font-style: italic; color: var(--navy-80); }
+
+/* ---------- Portada ---------- */
+.portada {
+  width: 210mm; height: 297mm; margin: 0; position: relative;
+  background-color: var(--navy);
+  background-image:
+    repeating-linear-gradient(0deg, rgba(148,163,184,0.10) 0 1px, transparent 1px 14mm),
+    repeating-linear-gradient(90deg, rgba(148,163,184,0.10) 0 1px, transparent 1px 14mm);
+  color: var(--blanco);
+  padding: 28mm 22mm;
+  display: flex; flex-direction: column; justify-content: space-between;
+}
+.portada .badge {
+  display: inline-block; align-self: flex-start;
+  border: 1px solid var(--verde); color: var(--verde);
+  font-size: 8.5pt; font-weight: 700; letter-spacing: 0.22em;
+  padding: 3mm 5mm; text-transform: uppercase;
+}
+.portada h1 {
+  font-size: 44pt; line-height: 1.02; font-weight: 700;
+  margin: 0 0 6mm; letter-spacing: -0.02em;
+}
+.portada h1 .acento { color: var(--verde); }
+.portada .bajada { text-align: left; font-size: 13pt; color: var(--gris); max-width: 125mm; margin: 0 0 10mm; line-height: 1.4; }
+.portada .datos { display: flex; gap: 14mm; border-top: 1px solid rgba(148,163,184,0.35); padding-top: 6mm; }
+.portada .dato .k { font-size: 7.5pt; letter-spacing: 0.18em; color: var(--gris); text-transform: uppercase; }
+.portada .dato .v { font-size: 15pt; font-weight: 700; color: var(--dorado); }
+.portada .pie { font-size: 9.5pt; color: var(--gris); }
+.portada .pie strong { color: var(--blanco); }
+
+/* ---------- Títulos de sección ---------- */
+.seccion-cabecera {
+  background: var(--navy); color: var(--blanco);
+  margin: -4mm -8mm 8mm; padding: 9mm 8mm;
+}
+.seccion-cabecera .kicker {
+  font-size: 7.5pt; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--verde); font-weight: 700; margin-bottom: 3mm;
+}
+.seccion-cabecera h1 { font-size: 24pt; line-height: 1.1; margin: 0; font-weight: 700; letter-spacing: -0.01em; }
+.seccion-cabecera .meta { margin-top: 4mm; font-size: 9pt; color: var(--gris); }
+.seccion-cabecera .meta .pill {
+  display: inline-block; border: 1px solid var(--dorado); color: var(--dorado);
+  padding: 1mm 3mm; margin-right: 3mm; font-weight: 500;
+}
+.num-leccion { font-size: 40pt; font-weight: 700; color: var(--verde); line-height: 1; }
+
+h2 {
+  font-size: 13pt; font-weight: 700; color: var(--navy);
+  margin: 7mm 0 3mm; padding-bottom: 1.5mm;
+  border-bottom: 2px solid var(--verde);
+  break-after: avoid; page-break-after: avoid;
+}
+h3 { font-size: 11pt; font-weight: 700; color: var(--navy); margin: 5mm 0 2mm; break-after: avoid; }
+
+/* ---------- Listas ---------- */
+ol, ul { margin: 0 0 0.8em; padding-left: 6mm; }
+li { margin-bottom: 0.45em; text-align: justify; }
+ol li::marker { color: var(--verde); font-weight: 700; }
+ul li::marker { color: var(--dorado); }
+
+/* ---------- Bloques de prompt ---------- */
+pre {
+  background: #F4F7FA;
+  border-left: 3px solid var(--verde);
+  border-top: 1px solid var(--gris-linea);
+  border-right: 1px solid var(--gris-linea);
+  border-bottom: 1px solid var(--gris-linea);
+  padding: 4mm 5mm;
+  margin: 3mm 0 5mm;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-family: "DejaVu Sans Mono", "Liberation Mono", Consolas, monospace;
+  font-size: 8.4pt;
+  line-height: 1.45;
+  color: var(--tinta);
+  orphans: 3; widows: 3;
+}
+pre code { font-family: inherit; font-size: inherit; background: none; padding: 0; }
+code { font-family: "DejaVu Sans Mono", monospace; font-size: 9pt; background: #EEF2F7; padding: 0 1mm; }
+
+/* ---------- Tablas ---------- */
+table { width: 100%; border-collapse: collapse; margin: 3mm 0 5mm; font-size: 9pt; }
+th { background: var(--navy); color: var(--blanco); text-align: left; padding: 2mm 3mm; font-weight: 500; }
+td { border-bottom: 1px solid var(--gris-linea); padding: 2mm 3mm; }
+tbody tr:nth-child(even) td { background: #F7F9FC; }
+
+/* ---------- Índice ---------- */
+.toc-item { display: flex; align-items: baseline; margin-bottom: 2.6mm; font-size: 10.5pt; }
+.toc-item .n { width: 10mm; color: var(--verde); font-weight: 700; }
+.toc-item .t { font-weight: 500; color: var(--tinta); }
+.toc-item .dur { color: var(--gris); font-size: 8.5pt; margin-left: 2mm; }
+.toc-item .dots { flex: 1; border-bottom: 1px dotted var(--gris); margin: 0 2mm; transform: translateY(-1mm); }
+.toc-item .p { color: var(--navy); font-weight: 700; min-width: 8mm; text-align: right; }
+.toc-grupo { margin-top: 6mm; font-size: 7.5pt; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gris); font-weight: 700; }
+
+/* ---------- Certificado ---------- */
+.certificado {
+  width: 210mm; height: 297mm; margin: 0; position: relative;
+  background-color: var(--navy);
+  background-image:
+    repeating-linear-gradient(0deg, rgba(148,163,184,0.08) 0 1px, transparent 1px 14mm),
+    repeating-linear-gradient(90deg, rgba(148,163,184,0.08) 0 1px, transparent 1px 14mm);
+  color: var(--blanco); padding: 24mm;
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+}
+.certificado .marco { border: 2px solid var(--dorado); padding: 20mm 14mm; width: 100%; height: 100%;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14mm; }
+.certificado .bloque-nombre { width: 100%; }
+.certificado .regla { width: 24mm; height: 2px; background: var(--verde); margin: 6mm auto; }
+.certificado .titulo { font-size: 30pt; font-weight: 700; letter-spacing: -0.01em; line-height: 1.1; }
+.certificado .sub { font-size: 9pt; letter-spacing: 0.24em; text-transform: uppercase; color: var(--verde); font-weight: 700; }
+.certificado .otorga { font-size: 11pt; color: var(--gris); }
+.certificado .linea-nombre { border-bottom: 1px solid var(--dorado); width: 120mm; height: 14mm; margin: 4mm auto 0; }
+.certificado .etiqueta { font-size: 8pt; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gris); margin-top: 2mm; }
+.certificado .firmas { margin-top: auto; display: flex; gap: 20mm; width: 100%; justify-content: center; }
+.certificado .firma { width: 62mm; }
+.certificado .firma .l { border-bottom: 1px solid rgba(148,163,184,0.6); height: 12mm; }
+.certificado .cuerpo { font-size: 10.5pt; color: var(--gris); max-width: 138mm; line-height: 1.6; margin: 5mm auto 0; }
+
+/* ---------- Marca [VERIFICAR] ---------- */
+.verificar {
+  background: #FFF4D9;
+  border-bottom: 1px solid var(--dorado);
+  color: #8A6100;
+  font-weight: 500;
+  padding: 0 0.6mm;
+}
+
+/* ---------- Utilidades ---------- */
+.aviso {
+  border-left: 3px solid var(--dorado); background: #FFF9EC;
+  padding: 4mm 5mm; margin: 4mm 0; font-size: 9.5pt;
+}
+.entregable-si { color: var(--verde); }
+.nada-arriba { margin-top: 0; }
