@@ -1,0 +1,172 @@
+{
+  "1": {
+    "problema": "Media mañana armando ratios en una hoja que arrastras desde hace años. Y al final el cliente pregunta algo que la hoja no responde.",
+    "concepto": "Un ratio es una división. La trampa está en lo que divides. Cifras de dos años en bolívares nominales no son comparables.",
+    "prompt": "Las cifras están expresadas en: [BOLÍVARES REEXPRESADOS / DÓLARES A TASA BCV].\n\nSi están en bolívares nominales, adviérteme qué conclusiones NO se pueden sostener.",
+    "caso": "Distribuidora Almeida, C.A.",
+    "cifras": [["Ventas", "+14%"], ["Margen bruto", "23% a 19%"], ["Inventario", "+65%"], ["Efectivo", "-56%"]],
+    "remate": "Vendió más y tiene menos plata.",
+    "error": "Subir las cifras sin decir en qué base están. El modelo calcula 300% de crecimiento y celebra la inflación.",
+    "cierre": "Declara la base de medición. Siempre."
+  },
+  "2": {
+    "problema": "El cierre tarda nueve días. Cuatro se van persiguiendo información que otro departamento no entregó a tiempo.",
+    "concepto": "No le pidas el cierre ideal. Dale el tuyo, con demoras y todo, y pide la ruta crítica.",
+    "prompt": "Convierte esto en una lista secuenciada.\n\nMarca los pasos en la ruta crítica y los que hoy hago en serie y podrían ir en paralelo.",
+    "caso": "Metalúrgica El Tigre, C.A.",
+    "cifras": [["Cierre", "9 días"], ["Persiguiendo info", "4 días"], ["Entrega pedida", "día 5"], ["Entrega real", "día 12"]],
+    "remate": "Tres días ganados son tres días de tranquilidad fiscal.",
+    "error": "Pedir el cierre ideal. Te devuelve un proceso de libro que supone un ERP que no tienes. Nadie lo sigue.",
+    "cierre": "Ordena tu cierre real, no el de manual."
+  },
+  "3": {
+    "problema": "El cliente pregunta por WhatsApp. Respondes de memoria. Esa respuesta no se cobra y no te protege.",
+    "concepto": "Un modelo no es fuente normativa. La norma la buscas tú en la fuente oficial y se la pegas dentro del prompt.",
+    "prompt": "Analiza ÚNICAMENTE con el texto normativo que te pego abajo.\n\nSi no alcanza, dilo. No completes con lo que creas recordar.",
+    "caso": "Inversiones Karú, C.A.",
+    "cifras": [["Factura", "Bs. 48.000"], ["Mitad", "transferencia"], ["Mitad", "divisas en efectivo"], ["Duda", "IGTF"]],
+    "remate": "Respuesta por chat: riesgo. Memorando: servicio que se factura.",
+    "error": "Pedirle el porcentaje de retención al modelo. Te lo da con seguridad y con número de artículo. Y te cuesta un reparo.",
+    "cierre": "La norma la traes tú."
+  },
+  "4": {
+    "problema": "Primera auditoría. Lista de 53 requerimientos. Respondes con archivos sueltos y te devuelven 28 observaciones.",
+    "concepto": "Externa: NIA de la FCCPV sobre VEN-NIF, para dictamen. Interna: COSO e IIA, para hallazgos. No se mezclan.",
+    "prompt": "TIPO DE ENCARGO: [EXTERNA BAJO NIA / INTERNA BAJO COSO].\n\nRespétalo en todo el análisis. No mezcles los dos enfoques.",
+    "caso": "Agropecuaria Los Cedros, C.A.",
+    "cifras": [["Requerimientos", "53"], ["Respondiendo", "3 semanas"], ["Observaciones", "28"], ["Atraso", "2 meses"]],
+    "remate": "El crédito del banco también se atrasó dos meses.",
+    "error": "Pedir prepárame para la auditoría sin decir de cuál. Te devuelve un híbrido que no le sirve a nadie.",
+    "cierre": "Declara el tipo de encargo en la primera línea."
+  },
+  "5": {
+    "problema": "Doce mil asientos. El dueño sospecha que se le va dinero por gastos y nadie sabe por dónde empezar.",
+    "concepto": "Una anomalía es una pregunta, no un hallazgo. Sin contexto operativo, el modelo marca ruido todo el día.",
+    "prompt": "Devuélveme máximo 15 partidas priorizadas.\n\nNo clasifiques nada como fraude. Si un patrón se explica por la multimoneda que te describí, no lo reportes.",
+    "caso": "Comercializadora Andina, C.A.",
+    "cifras": [["Pagos casi idénticos", "4 en 6 días"], ["Desembolsos", "USD 990"], ["Tope de aprobación", "USD 1.000"], ["Fuera de periodo", "8 asientos"]],
+    "remate": "Ninguna prueba nada. Las tres ameritan una pregunta.",
+    "error": "Mandarle la lista cruda al dueño. Tres nombres son de su cuñado y para el mediodía hay un problema que provocaste tú.",
+    "cierre": "Quince partidas se revisan. Doscientas alertas no."
+  },
+  "6": {
+    "problema": "Seis horas al mes armando el mismo reporte. Cuatro se van limpiando un archivo con el encabezado repetido cada cincuenta filas.",
+    "concepto": "Pégale el archivo crudo, con la basura incluida. Limpiar es el trabajo. El reporte es la parte fácil.",
+    "prompt": "MUESTRA REAL DEL ARCHIVO, SIN LIMPIAR: [PEGA 30 FILAS TAL COMO SALEN]\n\nToda tasa va en la hoja de supuestos, nunca dentro de una fórmula.",
+    "caso": "Clínica Santa Elena, C.A.",
+    "cifras": [["Tiempo al mes", "6 horas"], ["Solo limpiando", "4 horas"], ["Encabezado repetido", "cada 50 filas"], ["Misma especialidad", "3 nombres"]],
+    "remate": "Cuatro de las seis horas eran trabajo mecánico.",
+    "error": "Pegarle el archivo ya limpio. Te automatiza el 20% y te deja el 80% que de verdad duele.",
+    "cierre": "Muéstrale la basura. Ahí está tu tiempo."
+  },
+  "7": {
+    "problema": "Cada tres meses aparece una semana en que no alcanza para la nómina. Y siempre se descubre tarde.",
+    "concepto": "La condición de venta dice 30 días. El cliente paga a 52. La previsión usa el comportamiento real.",
+    "prompt": "Previsión semana por semana, 13 semanas, con entradas y salidas separadas por moneda.\n\nDime en qué semana perforo el saldo mínimo en cada escenario.",
+    "caso": "Textiles del Centro, C.A.",
+    "cifras": [["Condición de venta", "30 días"], ["Cobranza real", "52 días"], ["Empleados", "60"], ["Aviso previo", "5 semanas"]],
+    "remate": "La semana crítica se ve con cinco semanas de anticipación.",
+    "error": "Proyectar con la condición del contrato. La hoja queda linda y en la semana seis no alcanza para la nómina.",
+    "cierre": "Manda el comportamiento real, no el contrato."
+  },
+  "8": {
+    "problema": "Día y medio de cada quincena calculando retenciones a mano. Y las de personas naturales salen mal.",
+    "concepto": "Persona natural residente lleva sustraendo. Aplicas el porcentaje y después restas. Si da negativo, no hay retención.",
+    "prompt": "TABLA DE PORCENTAJES VIGENTES, la verifiqué yo en fuente oficial: [PEGA]\n\nÚsala tal cual. No apliques porcentajes de tu conocimiento previo.",
+    "caso": "Constructora Vargas, C.A.",
+    "cifras": [["Facturas al mes", "80 a 100"], ["Cálculo manual", "1,5 días"], ["Retenidas de más", "2 facturas"], ["Costo", "reemitir todo"]],
+    "remate": "El error estaba en el sustraendo olvidado.",
+    "error": "Dejar que el modelo ponga los porcentajes. Retienes mal ochenta facturas y toca anular comprobantes uno por uno.",
+    "cierre": "Los porcentajes los traes tú."
+  },
+  "9": {
+    "problema": "La desviación se presenta en bruto. Alguien improvisa una explicación y esa versión se vuelve la oficial.",
+    "concepto": "Acá el desglose son cuatro efectos: volumen, precio, inflación y tipo de cambio. Con dos no alcanza.",
+    "prompt": "Descompón cada desviación en volumen, precio real, mezcla, inflación y tipo de cambio.\n\nClasifica cada una como controlable por gestión o atribuible al entorno.",
+    "caso": "Alimentos La Sabana, C.A.",
+    "cifras": [["Presupuesto", "USD 2.400.000"], ["Real", "USD 2.160.000"], ["Volumen", "+3%"], ["Precio promedio", "-12%"]],
+    "remate": "Comercial vendió más. El problema era el precio.",
+    "error": "Presentar la desviación total sin descomponer. Se felicita a quien no hizo nada y se regaña a quien sí.",
+    "cierre": "Separa gestión de entorno antes del comité."
+  },
+  "10": {
+    "problema": "Entregaste ocho pestañas de Excel. El cliente abrió la primera, no entendió y cerró el archivo.",
+    "concepto": "Conclusión primero. Dos páginas de cuerpo. Todo el detalle técnico va a anexo, sin excepción.",
+    "prompt": "Resumen ejecutivo primero, media página, antes que cualquier metodología.\n\nCuerpo: máximo dos páginas. Lo que no quepa, va a anexo.",
+    "caso": "Repuestos del Llano, C.A.",
+    "cifras": [["Pestañas entregadas", "8"], ["Pestañas leídas", "1"], ["La advertencia", "pestaña 6"], ["En la fila", "42"]],
+    "remate": "Tomó la decisión que el análisis desaconsejaba.",
+    "error": "Dejar la conclusión para el final, como en un trabajo académico. El hallazgo que le ahorraba plata estaba en la página cuatro.",
+    "cierre": "Conclusión primero. Siempre."
+  },
+  "11": {
+    "problema": "Lo del SENIAT impecable, nunca se pasó una declaración. La multa llegó por una ordenanza municipal de la sucursal.",
+    "concepto": "Tres capas: nacional, municipal y parafiscal. Cada municipio donde hay actividad es un régimen aparte.",
+    "prompt": "Ubicaciones físicas y municipio de cada una: [LISTA COMPLETA, INCLUYENDO DEPÓSITOS]\n\nNO inventes fechas ni alícuotas. Escribe [VERIFICAR].",
+    "caso": "Servicios Integrales Delta, C.A.",
+    "cifras": [["Sede", "Maturín"], ["Sucursal", "Barcelona"], ["Empleados", "42"], ["Declaración omitida", "municipal"]],
+    "remate": "La multa salió más cara que los honorarios del año.",
+    "error": "Armar la matriz con la casa matriz y olvidar depósitos y puntos de venta. Por ahí entran las fiscalizaciones.",
+    "cierre": "Lista cada municipio donde hay actividad."
+  },
+  "12": {
+    "problema": "Ciento ochenta partidas conciliatorias. Ciento veinte son IGTF y comisiones que ya sabes que están bien.",
+    "concepto": "Declara las categorías conocidas. Si no, automatizas la parte fácil y vuelves a filtrar a mano.",
+    "prompt": "CATEGORÍAS CONOCIDAS QUE NO SON ERRORES: [IGTF, COMISIONES, DIFERENCIA DE TASA]\n\nAgrúpalas y dame solo las partidas que requieren investigación real.",
+    "caso": "Farmacia Nuevo Siglo, C.A.",
+    "cifras": [["Cuentas bancarias", "4"], ["Partidas totales", "180"], ["Las que importan", "20"], ["Tiempo al mes", "2 días"]],
+    "remate": "Su trabajo real eran veinte partidas.",
+    "error": "No declarar las categorías conocidas. Te devuelve 180 partidas con la misma importancia y vuelves al punto de partida.",
+    "cierre": "Separa el ruido antes de conciliar."
+  },
+  "13": {
+    "problema": "Se paga lo depositado en el fideicomiso y listo. El trabajador consulta y la diferencia aparece.",
+    "concepto": "El artículo 142 de la LOTTT es dual. Se calculan las dos vías y se paga la mayor. Siempre.",
+    "prompt": "Calcula la garantía trimestral y el retroactivo POR SEPARADO.\n\nCompara e indica de forma expresa cuál es mayor y por qué ese es el que corresponde pagar.",
+    "caso": "Panadería La Espiga, C.A.",
+    "cifras": [["Antigüedad", "6 años 8 meses"], ["Salario normal", "USD 180"], ["Utilidades", "30 días"], ["Bono vacacional", "15 días"]],
+    "remate": "La empresa pagó la diferencia y el costo de la discusión.",
+    "error": "Pagar solo la garantía acumulada. Con inflación, el retroactivo al último salario integral casi siempre resulta mayor.",
+    "cierre": "Calcula las dos vías. Paga la mayor."
+  },
+  "14": {
+    "problema": "Respondiste un correo con prisa y adjuntaste el estado de resultados de otro cliente del mismo sector.",
+    "concepto": "Antes de conectar nada, escribe tu regla: qué se procesa, qué se anonimiza y qué no sale de tu equipo.",
+    "prompt": "Diseña mi regla de tratamiento de datos: qué puedo procesar tal cual, qué debo anonimizar antes y qué no debe salir de mi equipo.",
+    "caso": "Escritorio contable en Valencia",
+    "cifras": [["Socios", "2"], ["Clientes", "30"], ["Adjunto equivocado", "1"], ["Conversación", "cara"]],
+    "remate": "El problema no fue la herramienta. Fue el flujo.",
+    "error": "Conectar el correo completo el primer día para probar. Primero la regla escrita, después un archivo sin datos reales.",
+    "cierre": "El secreto profesional sigue siendo tuyo."
+  },
+  "15": {
+    "problema": "Cuatro mil pagos a proveedores. Por dónde empiezas a buscar un patrón que no sabes si existe.",
+    "concepto": "Ley de Benford: el 1 abre cerca del 30% de las cifras naturales. El 9, menos del 5%. La mano humana se nota.",
+    "prompt": "Primero dime si este conjunto es apto para Benford. Si no lo es, dilo y no corras la prueba.\n\nNinguna salida puede calificar una partida como fraude.",
+    "caso": "Inversiones Guayana, C.A.",
+    "cifras": [["Pagos revisados", "4.000"], ["Dígito en exceso", "el 4"], ["Partidas", "160"], ["Rango", "4.000 a 4.900"]],
+    "remate": "Eso no prueba nada. Dice dónde mirar primero.",
+    "error": "Presentar la desviación estadística como si fuera el hallazgo. Una gráfica no es evidencia de nada.",
+    "cierre": "Una alerta es una pregunta, no una acusación."
+  },
+  "16": {
+    "problema": "Cuatro meses de honorarios sin cobrar. Lo mencionaste dos veces por WhatsApp, de pasada, entre otros temas.",
+    "concepto": "Sin monto y sin fecha, un mensaje de cobranza no genera ninguna acción. Se responde de pasada.",
+    "prompt": "Tres versiones: cordial, firme y final.\n\nCada una con el monto, una fecha específica, la consecuencia de que no pase nada y una sola acción de cierre.",
+    "caso": "Escritorio contable en Barquisimeto",
+    "cifras": [["Relación", "7 años"], ["Meses adeudados", "4"], ["Menciones de pasada", "2"], ["Pagos recibidos", "0"]],
+    "remate": "Nunca hubo un mensaje formal con monto y fecha.",
+    "error": "Cobrar de pasada y con tono de disculpa. El cliente entiende que no es urgente y actúa en consecuencia.",
+    "cierre": "Cobrar es parte del servicio."
+  },
+  "17": {
+    "problema": "El modelo daba una TIR de tres dígitos. Nadie supo decir cuánto de eso era crecimiento y cuánto inflación.",
+    "concepto": "En dólares o en unidades físicas. Nunca en bolívares nominales a varios años. Nunca.",
+    "prompt": "Modela en: [DÓLARES] o [UNIDADES FÍSICAS]\n\nNo proyectes en bolívares nominales a varios años bajo ninguna circunstancia.",
+    "caso": "Grupo Aurora, C.A.",
+    "cifras": [["Inversión", "USD 480.000"], ["Capacidad", "1.200 ton/año"], ["Arranque", "18 meses"], ["Primer modelo", "en bolívares"]],
+    "remate": "Rehecho en toneladas, seguía siendo viable y se podía discutir.",
+    "error": "Proyectar a cinco años en bolívares nominales. La rentabilidad espectacular es puro efecto de inflación.",
+    "cierre": "La unidad de medida define si el modelo sirve."
+  }
+}

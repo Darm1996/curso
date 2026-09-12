@@ -1,0 +1,9 @@
+{
+  "name": "curso-contave-carruseles",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Generador de los carruseles de Instagram del Certificado Contave",
+  "type": "commonjs",
+  "scripts": { "build": "node build.js" },
+  "dependencies": { "playwright": "1.56.1" }
+}
