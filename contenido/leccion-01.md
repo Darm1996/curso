@@ -7,11 +7,11 @@ entregable: sí
 
 ## Lo que vas a poder hacer al terminar
 
-Vas a tomar el balance general y el estado de resultados de un cliente y entregárselos a Claude. Sales con un análisis de ratios comentado, con la tendencia entre dos periodos y con los puntos que ameritan una conversación seria con el dueño. Hoy eso te toma media mañana armando fórmulas en una hoja que arrastras año tras año. Lo vas a resolver en un cuarto de hora, con el texto ya redactado en lenguaje que el cliente entiende.
+Vas a tomar el balance general y el estado de resultados de un cliente y entregárselos a Claude. Sales con un análisis de ratios comentado, con la tendencia entre dos periodos y con los puntos que ameritan una conversación seria con el dueño. Hoy eso te toma media mañana armando fórmulas en una hoja que arrastras año tras año. Lo vas a resolver en un cuarto de hora, con el texto ya en lenguaje del cliente.
 
 ## Por qué esto importa en Venezuela
 
-Un ratio es una división. La trampa está en lo que divides. Acá los estados financieros arrastran un problema que ningún manual internacional te resuelve. Las cifras de dos periodos distintos no son comparables si no están reexpresadas. El BA VEN-NIF N° 2 obliga a aplicar NIC 29 mientras la economía se considere hiperinflacionaria. [VERIFICAR: vigencia y alcance del BA VEN-NIF N° 2 aplicable al ejercicio que estés analizando] Si comparas las ventas de un año contra las del anterior en bolívares nominales, no estás midiendo crecimiento. Estás midiendo cuánto perdió la moneda.
+Un ratio es una división. La trampa está en lo que divides. Acá los estados financieros arrastran un problema que ningún manual internacional te resuelve. Las cifras de dos periodos distintos no son comparables si no están reexpresadas. El BA VEN-NIF N° 2, Versión 4 de noviembre de 2019, fija los criterios para reconocer la inflación bajo VEN-NIF. Se aplica junto con la NIC 29. Si comparas las ventas de un año contra las del anterior en bolívares nominales, no estás midiendo crecimiento. Estás midiendo cuánto perdió la moneda.
 
 A eso se le suma la multimoneda. Muchas PYME facturan en bolívares a tasa BCV del día, cobran una parte en divisas y compran el inventario en dólares. El margen bruto termina dependiendo de la fecha del cobro tanto como de la política de precios. Un análisis que ignore eso va a concluir cosas falsas sobre la eficiencia del negocio.
 
@@ -19,7 +19,7 @@ La tercera capa es práctica. La PYME venezolana rara vez tiene estados auditado
 
 ## El caso
 
-Distribuidora Almeida, C.A. Empresa familiar de Maracay. Vende alimentos secos a bodegas y abastos del estado Aragua. Cierra el 31 de diciembre. Las cifras ya vienen reexpresadas y el equipo las lleva en dólares para comparar.
+Distribuidora Almeida, C.A. Empresa familiar de Maracay. Vende alimentos secos a bodegas y abastos del estado Aragua. Cierra el 31 de diciembre. Las cifras vienen reexpresadas y el equipo lleva además un control en dólares. Son dos cosas distintas y conviene no confundirlas.
 
 | Partida | 2024 | 2023 |
 |---|---|---|

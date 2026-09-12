@@ -7,23 +7,25 @@ entregable: sí
 
 ## Lo que vas a poder hacer al terminar
 
-Vas a construir un modelo financiero proyectado de varios años que se sostenga en la realidad venezolana, con supuestos explícitos, escenarios y análisis de sensibilidad. Y vas a saber en qué unidad de medida modelar, la decisión que define si el modelo sirve.
+Vas a construir un modelo financiero proyectado de varios años que se sostenga en la realidad venezolana, con supuestos explícitos, escenarios y análisis de sensibilidad. Y vas a saber en qué unidad de medida modelar, que es lo que define si sirve.
 
 ## Por qué esto importa en Venezuela
 
-Empiezo por la regla que manda sobre todo lo demás: **no modeles a varios años en bolívares nominales.** Nunca. Un modelo a cinco años en bolívares nominales produce cifras enormes que no significan nada. Esconde el resultado real detrás del efecto de la inflación. Y no se puede comparar contra nada. Un proyecto malo se ve rentable, porque los ingresos futuros nominales aplastan la inversión inicial.
+Empiezo por la regla que manda sobre todo lo demás: **no modeles a varios años en bolívares nominales.** Nunca. Un modelo a cinco años en bolívares nominales produce cifras enormes que no significan nada. Esconde el resultado real detrás de la inflación y no se compara con nada. Un proyecto malo se ve rentable, porque los ingresos futuros nominales aplastan la inversión inicial.
 
-Las dos alternativas válidas son modelar en divisas, normalmente dólares, o modelar en unidades físicas y aplicar precios al final. La primera es la más común y funciona bien cuando la operación tiene referencia en divisas. La segunda es más robusta para negocios con producción física: toneladas, unidades, horas hombre. Proyectas la operación en unidades y después le aplicas la estructura de precios. Así el modelo habla del negocio y no de la moneda.
+Las dos alternativas válidas son modelar en divisas, normalmente dólares, o modelar en unidades físicas y aplicar precios al final. La primera es la más común cuando la operación tiene referencia en divisas. La segunda es más robusta para producción física: toneladas, unidades, horas hombre. Proyectas la operación en unidades y después le aplicas la estructura de precios. Así el modelo habla del negocio y no de la moneda.
 
 Lo segundo es la tasa de descuento. Traer a valor presente flujos en divisas con una tasa pensada para otro contexto da resultados sin sentido. La prima de riesgo país tiene que estar explícita y discutida, no escondida en un número redondo. [VERIFICAR: fuente y fecha de la prima de riesgo que utilices]
+
+Cuidado con una cosa. Modelar en divisas no cambia que el ISLR se determine en bolívares.
 
 Lo tercero es el capital de trabajo. En una economía con inflación alta, el capital de trabajo se come el efectivo. Mucho más rápido de lo que la mayoría de los modelos anticipan. Reponer el inventario cuesta más de lo que costó el que vendiste. Un modelo que no lo proyecta con cuidado proyecta una caja que no existe.
 
 ## El caso
 
-Grupo Aurora, C.A. Evalúa montar una planta de empaque en Aragua. Inversión inicial estimada en USD 480.000. Capacidad proyectada de 1.200 toneladas al año a plena marcha, con arranque escalonado en dieciocho meses.
+Grupo Aurora, C.A. Evalúa montar una planta de empaque en Aragua. Inversión estimada en USD 480.000. Capacidad proyectada de 1.200 toneladas al año a plena marcha, con arranque escalonado en 18 meses.
 
-El primer modelo que le presentaron estaba en bolívares, a cinco años, con crecimiento de ingresos del 60% anual. La tasa interna de retorno salía en tres dígitos. Un socio preguntó cuánto de ese 60% era crecimiento y cuánto inflación. Nadie supo responder. El modelo se rehízo en dólares y en toneladas. El proyecto seguía siendo viable, con números discutibles.
+El primer modelo estaba en bolívares, a cinco años, con crecimiento de ingresos del 60% anual. La tasa interna de retorno salía en tres dígitos. Un socio preguntó cuánto de ese 60% era crecimiento y cuánto inflación. Nadie supo responder. El modelo se rehízo en dólares y en toneladas. El proyecto seguía siendo viable, con números discutibles.
 
 ## Paso a paso
 

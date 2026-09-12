@@ -311,6 +311,7 @@ async function main() {
   const modulo0 = leerMd(path.join(CONTENIDO, 'modulo-00-reglas-de-oro.md'));
   const creditos = leerMd(path.join(CONTENIDO, 'creditos-y-aviso-legal.md'));
   const evaluacion = leerMd(path.join(CONTENIDO, 'evaluacion-final.md'));
+  const datos = leerMd(path.join(CONTENIDO, 'datos-normativos.md'));
   console.log(`  Lecciones leídas: ${lecciones.length}`);
 
   // 2. Definición de secciones
@@ -338,6 +339,7 @@ async function main() {
 
   secciones.push(
     { id: 'evaluacion', html: htmlSimple('Cierre', 'Evaluación final', evaluacion.cuerpo), margin: MARGENES, numerar: true, paginaImpar: true, enIndice: true, grupo: 'Cierre', tituloIndice: 'Evaluación final · 8 entregables' },
+    { id: 'datos', html: htmlSimple('Anexo', 'Datos normativos verificados', datos.cuerpo), margin: MARGENES, numerar: true, paginaImpar: true, enIndice: true, tituloIndice: `Anexo · Datos normativos (al ${datos.meta.fecha_corte})` },
     { id: 'anexo', html: htmlAnexo(lecciones), margin: MARGENES, numerar: true, paginaImpar: true, enIndice: true, tituloIndice: 'Anexo · Biblioteca de prompts' },
     { id: 'certificado', html: htmlCertificado(), margin: SIN_MARGEN, numerar: false, paginaImpar: true, enIndice: true, tituloIndice: 'Certificado' },
   );

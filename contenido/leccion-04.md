@@ -15,7 +15,7 @@ Lo primero es no mezclar dos cosas que acá se confunden todo el tiempo. La audi
 
 A eso se suma la figura del comisario mercantil, que existe en nuestro Código de Comercio. No tiene equivalente en la literatura internacional que el modelo conoce mejor. Si trabajas ese encargo, tienes que describirlo tú.
 
-Y está el ajuste por inflación. En una auditoría acá, la reexpresión bajo NIC 29 y el BA VEN-NIF N° 2 es un área de riesgo en sí misma. [VERIFICAR: alcance y vigencia aplicable al ejercicio auditado] Hay tres puntos que el auditor va a mirar con lupa. Los índices usados, la clasificación entre partidas monetarias y no monetarias, y el cálculo del resultado monetario del ejercicio. Prepararlos antes te ahorra días de ida y vuelta.
+Y está el ajuste por inflación. En una auditoría acá, la reexpresión bajo NIC 29 y el BA VEN-NIF N° 2 es un área de riesgo en sí misma. Aplica la Versión 4 del boletín. Hay tres puntos que el auditor va a mirar con lupa. Los índices usados, la clasificación entre partidas monetarias y no monetarias, y el cálculo del resultado monetario del ejercicio. Prepararlos antes te ahorra días de ida y vuelta.
 
 ## El caso
 

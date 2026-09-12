@@ -4,7 +4,7 @@
     "titulo": "Análisis de Estados Financieros",
     "duracion": 16,
     "entregable": true,
-    "resumen": "Vas a tomar el balance general y el estado de resultados de un cliente y entregárselos a Claude. Sales con un análisis de ratios comentado, con la tendencia entre dos periodos y con los puntos que ameritan una conversación seria con el dueño. Hoy eso te toma media mañana armando fórmulas en una hoja que arrastras año tras año. Lo vas a resolver en un cuarto de hora, con el texto ya redactado en lenguaje que el cliente entiende."
+    "resumen": "Vas a tomar el balance general y el estado de resultados de un cliente y entregárselos a Claude. Sales con un análisis de ratios comentado, con la tendencia entre dos periodos y con los puntos que ameritan una conversación seria con el dueño. Hoy eso te toma media mañana armando fórmulas en una hoja que arrastras año tras año. Lo vas a resolver en un cuarto de hora, con el texto ya en lenguaje del cliente."
   },
   {
     "numero": 2,
@@ -116,6 +116,6 @@
     "titulo": "Modelado Financiero",
     "duracion": 17,
     "entregable": true,
-    "resumen": "Vas a construir un modelo financiero proyectado de varios años que se sostenga en la realidad venezolana, con supuestos explícitos, escenarios y análisis de sensibilidad. Y vas a saber en qué unidad de medida modelar, la decisión que define si el modelo sirve."
+    "resumen": "Vas a construir un modelo financiero proyectado de varios años que se sostenga en la realidad venezolana, con supuestos explícitos, escenarios y análisis de sensibilidad. Y vas a saber en qué unidad de medida modelar, que es lo que define si sirve."
   }
 ]

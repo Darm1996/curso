@@ -13,7 +13,7 @@ const PREGUNTAS = [
   },
   {
     p: '¿El curso me da la normativa vigente?',
-    r: 'No, y eso es deliberado. Un modelo de lenguaje no es fuente normativa y la normativa venezolana cambia seguido. El curso te enseña el flujo correcto: buscas la norma en la fuente oficial, la pegas dentro del prompt y el modelo razona sobre ese texto. Donde hace falta un dato normativo, el material lo marca como [VERIFICAR] para que tú lo confirmes.',
+    r: 'Trae un anexo de datos normativos con fecha de corte, donde cada dato lleva su Gaceta Oficial, su providencia o su artículo: retenciones de IVA e ISLR, sustraendo, Unidad Tributaria, artículos 142, 122, 131, 192 y 105 de la LOTTT, IGTF, la contribución de pensiones y el BA VEN-NIF N° 2. Pero eso es un punto de partida, no una garantía. La normativa venezolana cambia por Gaceta y a veces con efecto retroactivo, así que los datos más volátiles van marcados para que confirmes vigencia. Lo que el curso enseña de fondo es el flujo correcto: la norma la buscas en la fuente oficial y la pegas dentro del prompt, porque un modelo de lenguaje no es fuente normativa.',
   },
   {
     p: '¿Puedo usarlo con datos reales de mis clientes?',

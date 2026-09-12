@@ -11,19 +11,19 @@ Vas a calcular una liquidación de prestaciones sociales completa, con el sistem
 
 ## Por qué esto importa en Venezuela
 
-La nómina venezolana es el área donde un error se convierte en demanda laboral. El punto donde más se falla es el artículo 142 de la LOTTT. El sistema es dual y mucha gente calcula solo una de las dos vías. [VERIFICAR: texto vigente de los artículos 142 y 122 de la LOTTT antes de aplicar cualquier cálculo]
+La nómina es donde un error se convierte en demanda laboral. El punto donde más se falla es el artículo 142 de la LOTTT. El sistema es dual y mucha gente calcula solo una de las dos vías. El artículo 122 es el que fija la base: el último salario devengado, integrando las alícuotas de bono vacacional y utilidades.
 
-Por un lado corre la garantía de prestaciones sociales. Se deposita trimestralmente, a razón de quince días de salario por trimestre, calculados con el último salario del trimestre. A eso se suman dos días adicionales por año a partir del segundo, acumulativos hasta treinta. Por el otro corre el cálculo retroactivo. Son treinta días de salario por año de servicio o fracción superior a seis meses, calculados con el último salario integral del trabajador. Al terminar la relación laboral se comparan ambos resultados y se paga el que sea mayor. Quien calcula solo la garantía acumulada casi siempre paga de menos, porque en un contexto inflacionario el retroactivo al último salario suele ganar por mucho.
+Por un lado corre la garantía de prestaciones sociales. Se deposita trimestralmente, a razón de quince días de salario por trimestre, calculados con el último salario del trimestre. Más dos días adicionales por año a partir del segundo, acumulativos hasta treinta. Por el otro corre el cálculo retroactivo. Son treinta días de salario por año de servicio o fracción superior a seis meses, calculados con el último salario integral del trabajador. Al terminar la relación laboral se comparan ambos resultados y se paga el que sea mayor. Quien calcula solo la garantía acumulada casi siempre paga de menos. Con inflación, el retroactivo suele ganar por mucho.
 
-El salario integral es la otra trampa. No es el sueldo. Es el salario normal más la alícuota de utilidades más la alícuota de bono vacacional. Si construyes mal el salario integral, todo lo que venga después queda mal: prestaciones, vacaciones y la indemnización del artículo 92 si hubo despido injustificado.
+El salario integral es la otra trampa. No es el sueldo. Es el salario normal más la alícuota de utilidades más la de bono vacacional. Si lo construyes mal, queda mal todo lo que venga después.
 
-Y está la distinción entre conceptos salariales y no salariales. El beneficio de alimentación tiene un tratamiento propio [VERIFICAR: carácter salarial o no salarial del beneficio de alimentación según la normativa vigente]. Ponerlo del lado equivocado infla o desinfla la base de todo el cálculo.
+Queda la distinción entre conceptos salariales y no salariales. El cestaticket es un beneficio social de carácter no remunerativo por el artículo 105 de la LOTTT. No incide en vacaciones, bono vacacional, utilidades ni prestaciones. La excepción es que la convención colectiva o el contrato individual dispongan lo contrario.
 
 ## El caso
 
-Panadería La Espiga, C.A. Caracas. Un trabajador con seis años y ocho meses de servicio renuncia. Salario normal mensual al momento del retiro: el equivalente a USD 180. La empresa paga utilidades de treinta días y bono vacacional de quince días al año [VERIFICAR: días mínimos legales aplicables].
+Panadería La Espiga, C.A. Caracas. Un trabajador con seis años y ocho meses de servicio renuncia. Salario normal mensual al momento del retiro: el equivalente a USD 180. La empresa paga utilidades de treinta días y bono vacacional de quince días al año, que son los mínimos de los artículos 131 y 192.
 
-La administradora calcula la liquidación sumando lo depositado en el fideicomiso. El trabajador consulta, alguien le calcula el retroactivo sobre el último salario integral, y la diferencia es grande. La empresa paga la diferencia más el costo de la discusión. El cálculo correcto desde el principio habría costado quince minutos.
+La administradora calcula la liquidación sumando lo depositado en el fideicomiso. El trabajador consulta, alguien le calcula el retroactivo sobre el último salario integral, y la diferencia es grande. La empresa paga esa diferencia y el costo de la discusión.
 
 ## Paso a paso
 
@@ -31,13 +31,13 @@ La administradora calcula la liquidación sumando lo depositado en el fideicomis
 
 2. **Clasifica cada concepto de la nómina como salarial o no salarial.** Antes de calcular nada. Esta clasificación determina todo lo demás.
 
-3. **Calcula las dos vías del artículo 142 por separado.** Garantía trimestral acumulada por un lado, retroactivo por el otro. Nunca una sola.
+3. **Calcula las dos vías del artículo 142 por separado.** Garantía acumulada por un lado, retroactivo por el otro. Nunca una sola.
 
 4. **Compara y toma el mayor.** Que el cálculo muestre ambos resultados, para que quede documentado por qué se pagó el que se pagó.
 
 5. **Agrega los demás conceptos.** Vacaciones y bono vacacional vencidos y fraccionados, utilidades fraccionadas, intereses sobre prestaciones, y la indemnización del artículo 92 si el retiro fue por despido injustificado.
 
-6. **Pide el desglose explicado para el trabajador.** Concepto, base, fórmula y monto.
+6. **Pide el desglose para el trabajador.** Concepto, base, fórmula y monto.
 
 ## Prompt maestro
 
@@ -100,7 +100,7 @@ Terminaste bien si puedes decir cuál de las dos ganó y por qué. Si en tu cál
 
 ## Verificación profesional
 
-Tres cosas se verifican en el texto vigente de la LOTTT y su reglamento. Los días mínimos legales, las tasas de interés sobre prestaciones y el carácter salarial de cada concepto. El histórico salarial se contrasta contra los recibos de pago, uno por uno. Un salario mal cargado en un trimestre arrastra el error hasta el final. Y toda liquidación se revisa a mano antes de pagarse. Una diferencia acá no es un ajuste contable. Es una demanda laboral con intereses.
+Tres cosas se verifican en el texto vigente de la LOTTT y su reglamento. Los días mínimos legales, las tasas de interés sobre prestaciones y el carácter salarial de cada concepto. El histórico salarial se contrasta contra los recibos de pago, uno por uno. Un salario mal cargado en un trimestre arrastra el error hasta el final. Ten presente que la retención de ISLR sobre el sueldo, la del formulario AR-I, es otra obligación. Tiene reglas propias y no se cubre acá. Y toda liquidación se revisa a mano antes de pagarse. Una diferencia acá no es un ajuste contable. Es una demanda laboral con intereses.
 
 ## Error común
 
