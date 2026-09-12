@@ -1,0 +1,225 @@
+{
+  "grupos": [
+    {
+      "id": "analisis",
+      "titulo": "Análisis y diagnóstico financiero",
+      "intro": "Para leer los números de una empresa y proyectar los que vienen. El punto crítico de todos estos prompts es la base de medición: si no declaras en qué moneda están las cifras y si están reexpresadas, el resultado no sirve.",
+      "lecciones": [
+        1,
+        7,
+        9,
+        17
+      ]
+    },
+    {
+      "id": "cierre",
+      "titulo": "Cierre, reportes y conciliaciones",
+      "intro": "El trabajo repetitivo del mes. Acá lo que se gana es tiempo puro: ordenar el proceso, limpiar lo que el sistema exporta mal y separar el ruido de lo que de verdad hay que investigar.",
+      "lecciones": [
+        2,
+        6,
+        12
+      ]
+    },
+    {
+      "id": "fiscal",
+      "titulo": "Fiscal y cumplimiento",
+      "intro": "Acá la regla 1 manda sobre todo lo demás. Ningún prompt de este grupo funciona si esperas que el modelo aporte el dato normativo. La norma, los porcentajes y las fechas los traes tú desde la fuente oficial.",
+      "lecciones": [
+        3,
+        8,
+        11
+      ]
+    },
+    {
+      "id": "nomina",
+      "titulo": "Nómina y prestaciones",
+      "intro": "El área donde un error se convierte en demanda laboral. Muestra siempre las fórmulas y verifica el histórico salarial contra los recibos de pago antes de pagar nada.",
+      "lecciones": [
+        13
+      ]
+    },
+    {
+      "id": "auditoria",
+      "titulo": "Auditoría, control interno y revisión forense",
+      "intro": "Para encargos de auditoría y para revisiones de partidas. Ninguna salida de este grupo califica a nadie ni a nada como fraude: lo que producen son partidas que ameritan revisión documental.",
+      "lecciones": [
+        4,
+        5,
+        15
+      ]
+    },
+    {
+      "id": "clientes",
+      "titulo": "Comunicación con clientes",
+      "intro": "El trabajo ya lo hiciste. Estos prompts son para que se note y para que las conversaciones difíciles dejen de posponerse.",
+      "lecciones": [
+        10,
+        16
+      ]
+    },
+    {
+      "id": "trabajo",
+      "titulo": "Tu forma de trabajar",
+      "intro": "Antes de meter información de clientes en cualquier herramienta.",
+      "lecciones": [
+        14
+      ]
+    }
+  ],
+  "lecciones": {
+    "1": {
+      "cuando": "Cuando tienes que analizar los estados financieros de un cliente y llegar a la reunión con algo más que una tabla de ratios.",
+      "aMano": "Balance general y estado de resultados de dos periodos, y saber en qué base están las cifras.",
+      "seguimiento": [
+        "Correo de resultados para el dueño",
+        "Efectivo inmovilizado por el inventario",
+        "Escenario si se cobra la cartera vencida"
+      ]
+    },
+    "2": {
+      "cuando": "Cuando el cierre mensual se te va de las manos y no sabes exactamente dónde se pierden los días.",
+      "aMano": "Tu proceso de cierre actual descrito en bruto, con demoras y responsables reales.",
+      "seguimiento": [
+        "Los tres cambios que más días ganan",
+        "Correo al responsable que atrasa el cierre",
+        "Formato de la hoja de pendientes"
+      ]
+    },
+    "3": {
+      "cuando": "Cuando un cliente te hace una consulta fiscal y quieres responder con un memorando que se pueda cobrar.",
+      "aMano": "Los hechos con fechas y montos, y el texto de la norma copiado de la fuente oficial.",
+      "seguimiento": [
+        "Resumen del memorando para el cliente",
+        "Documentación de respaldo a conservar",
+        "Argumentos que usaría un fiscal"
+      ]
+    },
+    "4": {
+      "cuando": "Cuando viene una auditoría, del lado del auditado o del lado del auditor.",
+      "aMano": "Balanza de comprobación del ejercicio y del anterior, y claridad sobre el tipo de encargo.",
+      "seguimiento": [
+        "Cronograma de preparación a tres semanas",
+        "Cartas de confirmación de saldos",
+        "Observaciones típicas de una primera auditoría"
+      ]
+    },
+    "5": {
+      "cuando": "Cuando sospechas que algo se está yendo por gastos y no sabes por dónde empezar a mirar.",
+      "aMano": "Mayor analítico con la columna de usuario, y los niveles de aprobación de la empresa.",
+      "seguimiento": [
+        "Las tres partidas a revisar primero",
+        "Control que habría evitado el patrón",
+        "Papel de trabajo de la revisión"
+      ]
+    },
+    "6": {
+      "cuando": "Cuando armas el mismo reporte todos los meses y se te va media jornada en limpiar el archivo.",
+      "aMano": "El archivo tal como sale del sistema, sin limpiar, y la descripción del reporte que necesitas.",
+      "seguimiento": [
+        "Script para automatizar la limpieza",
+        "Bloque de análisis automático en el reporte",
+        "Qué se rompe si cambia el archivo fuente"
+      ]
+    },
+    "7": {
+      "cuando": "Cuando necesitas saber hasta cuándo alcanza la plata, no cuánta utilidad hubo.",
+      "aMano": "Saldos bancarios de hoy, cartera por cobrar con fechas y el histórico real de días de cobro.",
+      "seguimiento": [
+        "Gestión de cobranza priorizada",
+        "Plantilla para actualizar cada lunes",
+        "Simular más plazo con proveedores"
+      ]
+    },
+    "8": {
+      "cuando": "Cuando procesas el lote de facturas de la quincena y tienes que calcular retenciones.",
+      "aMano": "Ficha de cada proveedor, detalle de las facturas y la tabla de porcentajes vigentes verificada por ti.",
+      "seguimiento": [
+        "Lista de pago priorizada de la quincena",
+        "Correo al proveedor por factura incompleta",
+        "Ficha de alta de proveedor"
+      ]
+    },
+    "9": {
+      "cuando": "Cuando hay que explicar en un comité por qué el resultado se apartó del presupuesto.",
+      "aMano": "Presupuesto y real con el mismo nivel de detalle, y los datos de inflación y tasa del periodo.",
+      "seguimiento": [
+        "Lámina de resumen para el comité",
+        "Volumen necesario para compensar el precio",
+        "Supuestos del presupuesto que ya no se sostienen"
+      ]
+    },
+    "10": {
+      "cuando": "Cuando terminaste un trabajo y tienes que entregarlo de forma que el cliente lo lea completo.",
+      "aMano": "Tu análisis técnico completo y claridad sobre qué decisión tiene que tomar quien lo lee.",
+      "seguimiento": [
+        "Correo de envío del informe",
+        "Versión del informe para el banco",
+        "Preguntas incómodas que va a hacer el cliente"
+      ]
+    },
+    "11": {
+      "cuando": "Cuando tomas un cliente nuevo o sospechas que hay obligaciones que nadie está atendiendo.",
+      "aMano": "Datos del cliente, su condición ante el SENIAT y todas sus ubicaciones físicas con su municipio.",
+      "seguimiento": [
+        "Calendario anual con alertas previas",
+        "Lista de verificación antes de una fiscalización",
+        "Qué cambia al ser contribuyente especial"
+      ]
+    },
+    "12": {
+      "cuando": "Cuando conciliar el banco te toma días y la mayoría de las partidas resultan ser ruido conocido.",
+      "aMano": "Estado de cuenta y mayor de la cuenta, y la política de registro de operaciones en divisas.",
+      "seguimiento": [
+        "Correo al banco por partidas sin resolver",
+        "Fallas de proceso en los últimos tres meses",
+        "Plantilla mensual de la conciliación"
+      ]
+    },
+    "13": {
+      "cuando": "Cuando termina una relación laboral y hay que calcular la liquidación completa.",
+      "aMano": "Fechas de ingreso y egreso, histórico salarial por trimestre, política de utilidades y bono vacacional.",
+      "seguimiento": [
+        "Aportes parafiscales del último año",
+        "Simulación de despido injustificado",
+        "Carta de finiquito y recibo de pago"
+      ]
+    },
+    "14": {
+      "cuando": "Antes de conectar tu correo o subir archivos de clientes a cualquier herramienta.",
+      "aMano": "Las cinco tareas de tu día que más saltos entre ventanas te cuestan.",
+      "seguimiento": [
+        "Regla de datos para firmar en el escritorio",
+        "Diez instrucciones útiles dentro de la hoja",
+        "Plantillas de los correos que más repites"
+      ]
+    },
+    "15": {
+      "cuando": "Cuando hay que revisar un conjunto grande de transacciones buscando patrones anómalos.",
+      "aMano": "Las transacciones con montos originales, sin convertir ni reexpresar, y los niveles de autorización.",
+      "seguimiento": [
+        "Plan de revisión documental de una semana",
+        "Controles preventivos sin comprar software",
+        "Informe interno sin atribuir responsabilidades"
+      ]
+    },
+    "16": {
+      "cuando": "Cuando tienes que cobrar, pedir recaudos por quinta vez, subir honorarios o dar una mala noticia.",
+      "aMano": "Los datos concretos: monto, periodos, fechas, y el historial de la relación con ese cliente.",
+      "seguimiento": [
+        "Plantillas reutilizables con variables",
+        "Secuencia de cobranza por días de atraso",
+        "Correo anual de ajuste de honorarios"
+      ]
+    },
+    "17": {
+      "cuando": "Cuando hay que evaluar si un proyecto o una inversión tiene sentido financiero.",
+      "aMano": "Inversión inicial, supuestos operativos por periodo y la estructura de financiamiento.",
+      "seguimiento": [
+        "Revisión crítica de mis supuestos",
+        "Resumen de una página para un inversionista",
+        "Escenario pesimista con atraso en el arranque"
+      ]
+    }
+  }
+}
