@@ -11,17 +11,17 @@ Vas a resolver una consulta fiscal de un cliente en un cuarto de hora, con un me
 
 ## Por qué esto importa en Venezuela
 
-Esta es la lección donde más gente se quema, así que va directo. **Un modelo de lenguaje no es una fuente normativa.** No lo es en ningún país, y menos acá. La normativa tributaria venezolana cambia por Gaceta Oficial, por providencias del SENIAT y por decretos que a veces ni se publican con el detalle que uno necesita. Ningún modelo tiene garantizado el texto vigente de una providencia de retenciones. Si le preguntas "¿cuál es el porcentaje de retención de ISLR para honorarios profesionales?", te puede dar un número que suena correcto. Ese número te puede costar un reparo.
+Esta es la lección donde más gente se quema, así que va directo. **Un modelo de lenguaje no es una fuente normativa.** No lo es en ningún país, y menos acá. La normativa tributaria venezolana cambia por Gaceta Oficial, por providencias del SENIAT y por decretos. A veces ni se publican con el detalle que uno necesita. Ningún modelo tiene garantizado el texto vigente de una providencia de retenciones. Si le preguntas "¿cuál es el porcentaje de retención de ISLR para honorarios profesionales?", te puede dar un número que suena correcto. Ese número te puede costar un reparo.
 
-El flujo correcto es al revés. Tú buscas la norma en la fuente oficial, la copias, y se la pegas al modelo dentro del prompt. Claude no aporta el dato. Aporta el razonamiento sobre el dato: te estructura el análisis, te encuentra la contradicción entre dos artículos, te redacta el memorando y te obliga a ordenar el argumento. Eso es mucho, y es exactamente lo que hace falta.
+El flujo correcto es al revés. Tú buscas la norma en la fuente oficial, la copias, y se la pegas al modelo dentro del prompt. Claude no aporta el dato. Aporta el razonamiento sobre el dato. Te estructura el análisis, te encuentra la contradicción entre dos artículos y te redacta el memorando. Y te obliga a ordenar el argumento. Eso es mucho, y es exactamente lo que hace falta.
 
-La tercera razón es de oficio. El memorando fiscal bien escrito es lo que separa al contador que responde por WhatsApp del que cobra honorarios por una opinión. Un documento con los hechos, la base normativa citada textualmente, el análisis y la conclusión, es un entregable que se factura y que te protege a ti.
+La tercera razón es de oficio. El memorando fiscal bien escrito es lo que separa al contador que responde por WhatsApp del que cobra honorarios por una opinión. Un documento con los hechos, la base normativa citada textualmente, el análisis y la conclusión es otra cosa. Es un entregable que se factura y que te protege a ti.
 
 ## El caso
 
 Inversiones Karú, C.A. Cadena de tres tiendas de repuestos en Valencia. El cliente llama con una duda concreta: un cliente le pagó una factura de Bs. 48.000 así, mitad por transferencia en bolívares desde un banco nacional y mitad en efectivo en divisas. Quiere saber cómo queda el IGTF, quién lo cobra y cómo se factura.
 
-La duda es legítima y tiene aristas. El tratamiento depende del medio de pago y de la condición del pagador [VERIFICAR: texto vigente de la Ley del IGTF y de la providencia del SENIAT que regula su facturación y declaración]. La respuesta improvisada por chat es un riesgo. La respuesta con memorando es un servicio.
+La duda es legítima y tiene aristas. El tratamiento depende del medio de pago y de la condición del pagador. [VERIFICAR: texto vigente de la Ley del IGTF y de la providencia del SENIAT que regula su facturación y declaración] La respuesta improvisada por chat es un riesgo. La respuesta con memorando es un servicio.
 
 ## Paso a paso
 

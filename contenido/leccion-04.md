@@ -7,15 +7,15 @@ entregable: sí
 
 ## Lo que vas a poder hacer al terminar
 
-Vas a armar el paquete de preparación de una auditoría sin esperar a que el auditor te mande la lista. Claude te va a generar la relación de documentos por área, los papeles de trabajo base y las respuestas anticipadas a las preguntas que sabes que van a venir. Si estás del otro lado, como auditor, vas a salir con el programa de trabajo y el memorando de planificación en borrador.
+Vas a armar el paquete de preparación de una auditoría sin esperar a que el auditor te mande la lista. Claude te va a generar la relación de documentos por área y los papeles de trabajo base. También las respuestas anticipadas a las preguntas que sabes que van a venir. Si estás del otro lado, como auditor, vas a salir con el programa de trabajo y el memorando de planificación en borrador.
 
 ## Por qué esto importa en Venezuela
 
-Lo primero es no mezclar dos cosas que acá se confunden todo el tiempo. La auditoría externa de estados financieros se ejecuta bajo las Normas Internacionales de Auditoría adoptadas por la Federación de Colegios de Contadores Públicos de Venezuela, y evalúa estados preparados bajo VEN-NIF, sea GE o PYME. Su producto es un dictamen. La auditoría interna es otra cosa: trabaja con el marco COSO y las normas del Instituto de Auditores Internos, evalúa control interno y procesos, y su producto son hallazgos y recomendaciones. Distinto objetivo, distinto marco, distinto informe. Un prompt que no le diga a Claude en cuál de las dos estás te va a devolver una mezcla inservible.
+Lo primero es no mezclar dos cosas que acá se confunden todo el tiempo. La auditoría externa de estados financieros se ejecuta bajo las Normas Internacionales de Auditoría adoptadas por la Federación de Colegios de Contadores Públicos de Venezuela. Evalúa estados preparados bajo VEN-NIF, sea GE o PYME. Su producto es un dictamen. La auditoría interna es otra cosa. Trabaja con el marco COSO y las normas del Instituto de Auditores Internos. Evalúa control interno y procesos, y su producto son hallazgos y recomendaciones. Distinto objetivo, distinto marco, distinto informe. Un prompt que no le diga a Claude en cuál de las dos estás te va a devolver una mezcla inservible.
 
-A eso se suma la figura del comisario mercantil, que existe en nuestro Código de Comercio y no tiene equivalente en la literatura internacional que el modelo conoce mejor. Si trabajas ese encargo, tienes que describirlo tú.
+A eso se suma la figura del comisario mercantil, que existe en nuestro Código de Comercio. No tiene equivalente en la literatura internacional que el modelo conoce mejor. Si trabajas ese encargo, tienes que describirlo tú.
 
-Y está el ajuste por inflación. En una auditoría acá, la reexpresión bajo NIC 29 y el BA VEN-NIF N° 2 es un área de riesgo en sí misma [VERIFICAR: alcance y vigencia aplicable al ejercicio auditado]. Los índices usados, la clasificación entre partidas monetarias y no monetarias, y el cálculo del resultado monetario del ejercicio son puntos que el auditor va a mirar con lupa. Prepararlos antes te ahorra días de ida y vuelta.
+Y está el ajuste por inflación. En una auditoría acá, la reexpresión bajo NIC 29 y el BA VEN-NIF N° 2 es un área de riesgo en sí misma. [VERIFICAR: alcance y vigencia aplicable al ejercicio auditado] Hay tres puntos que el auditor va a mirar con lupa. Los índices usados, la clasificación entre partidas monetarias y no monetarias, y el cálculo del resultado monetario del ejercicio. Prepararlos antes te ahorra días de ida y vuelta.
 
 ## El caso
 
@@ -90,11 +90,11 @@ Terminaste bien si conseguiste al menos tres documentos que la empresa hoy no ti
 
 ## Verificación profesional
 
-El alcance del encargo lo defines tú, no el modelo. Verifica que la relación de documentos corresponda al marco que aplicaste de verdad, que ninguna referencia normativa haya pasado sin confirmar y que el legajo del ajuste por inflación refleje el método que usaste. Si eres el auditor, recuerda que el programa de trabajo que salga de acá es un borrador de planificación. La evaluación de riesgo y la determinación de materialidad son juicio profesional tuyo y quedan documentadas con tu firma.
+El alcance del encargo lo defines tú, no el modelo. Verifica que la relación de documentos corresponda al marco que aplicaste de verdad. Que ninguna referencia normativa haya pasado sin confirmar. Y que el legajo del ajuste por inflación refleje el método que usaste. Si eres el auditor, recuerda que el programa de trabajo que salga de acá es un borrador de planificación. La evaluación de riesgo y la determinación de materialidad son juicio profesional tuyo y quedan documentadas con tu firma.
 
 ## Error común
 
-Pedir "prepárame para la auditoría" sin decir de cuál se trata. El modelo devuelve un documento híbrido, con vocabulario de control interno mezclado con requerimientos de evidencia para un dictamen. Lo llevas a la reunión de arranque y el auditor externo te pide cosas que no están, mientras tú le entregas evaluaciones de proceso que no le sirven. Dos semanas perdidas por una línea de contexto.
+Pedir "prepárame para la auditoría" sin decir de cuál se trata. El modelo devuelve un documento híbrido, con vocabulario de control interno mezclado con requerimientos de evidencia para un dictamen. Lo llevas a la reunión de arranque y el auditor externo te pide cosas que no están. Tú le entregas evaluaciones de proceso que no le sirven. Dos semanas perdidas por una línea de contexto.
 
 ## Resumen en 3 líneas
 

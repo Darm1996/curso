@@ -7,13 +7,13 @@ entregable: sí
 
 ## Lo que vas a poder hacer al terminar
 
-Vas a pasar un mayor analítico o una relación de pagos por una revisión sistemática y salir con una lista corta de partidas que ameritan explicación. No una lista de doscientas alertas que nadie va a revisar. Diez o quince, priorizadas, cada una con la razón por la que saltó y la pregunta que hay que hacer.
+Vas a pasar un mayor analítico o una relación de pagos por una revisión sistemática. Sales con una lista corta de partidas que ameritan explicación. No una lista de doscientas alertas que nadie va a revisar. Diez o quince, priorizadas, cada una con la razón por la que saltó y la pregunta que hay que hacer.
 
 ## Por qué esto importa en Venezuela
 
 La contabilidad de una PYME acá acumula ruido por razones estructurales. Se registra en dos monedas, se reexpresa, se pagan cosas en efectivo que después se documentan tarde, y el personal administrativo cambia seguido. En ese ambiente, una anomalía real se esconde detrás de cincuenta anomalías aparentes. La detección manual falla por cansancio: a la partida número ochenta ya nadie está leyendo con atención.
 
-Hay un patrón local que conviene tener presente. La diferencia cambiaria mal registrada genera montos raros que parecen fraude y no lo son. Al revés también pasa: una salida de efectivo irregular se disfraza fácil entre ajustes de tasa. Si no le explicas al modelo cómo maneja la empresa la multimoneda, va a marcar como sospechoso todo el mayor de diferencias en cambio y vas a perder el día.
+Hay un patrón local que conviene tener presente. La diferencia cambiaria mal registrada genera montos raros que parecen fraude y no lo son. Al revés también pasa: una salida de efectivo irregular se disfraza fácil entre ajustes de tasa. Si no le explicas al modelo cómo maneja la empresa la multimoneda, va a marcar como sospechoso todo el mayor de diferencias en cambio. Vas a perder el día.
 
 El tercer punto es de fondo. Esta lección detecta anomalías, es decir, partidas que se salen del patrón. Una anomalía es una pregunta, no un hallazgo. El registro raro casi siempre tiene explicación. Tu trabajo es conseguir la explicación, no asumir la peor.
 
@@ -21,7 +21,7 @@ El tercer punto es de fondo. Esta lección detecta anomalías, es decir, partida
 
 Comercializadora Andina, C.A. Empresa de Mérida, venta de insumos agrícolas. Doce mil asientos en el ejercicio. El dueño sospecha que se le está yendo dinero por gastos, pero no sabe por dónde.
 
-Al pasar el mayor de gastos por una revisión sistemática saltan cosas concretas: cuatro pagos al mismo proveedor con montos casi idénticos en un lapso de seis días, una serie de desembolsos de USD 990 cuando el nivel de aprobación del supervisor llega hasta USD 1.000, y ocho asientos registrados en fechas posteriores al cierre del mes pero con fecha de operación anterior. Ninguna de las tres cosas prueba nada. Las tres ameritan una pregunta.
+Al pasar el mayor de gastos por una revisión sistemática saltan tres cosas concretas. Cuatro pagos al mismo proveedor con montos casi idénticos en un lapso de seis días. Una serie de desembolsos de USD 990, cuando el nivel de aprobación del supervisor llega hasta USD 1.000. Y ocho asientos registrados en fechas posteriores al cierre del mes, con fecha de operación anterior. Ninguna de las tres cosas prueba nada. Las tres ameritan una pregunta.
 
 ## Paso a paso
 
@@ -29,7 +29,7 @@ Al pasar el mayor de gastos por una revisión sistemática saltan cosas concreta
 
 2. **Explícale a Claude cómo funciona la empresa.** Niveles de aprobación, proveedores habituales, estacionalidad, política de multimoneda. Sin este contexto marca ruido.
 
-3. **Pide categorías de anomalía, no una lista plana.** Duplicados probables, montos justo por debajo de umbrales de autorización, registros fuera de horario o fuera de periodo, terceros nuevos con montos altos, secuencias de documento rotas.
+3. **Pide categorías de anomalía, no una lista plana.** Duplicados probables, montos justo por debajo de umbrales de autorización, registros fuera de horario o fuera de periodo. También terceros nuevos con montos altos y secuencias de documento rotas.
 
 4. **Pide priorización por monto y por rareza combinados.** Una partida rara de Bs. 300 no compite con una de USD 4.000.
 

@@ -19,9 +19,9 @@ Y está el tema del sistema contable. Muchos sistemas locales exportan en format
 
 ## El caso
 
-Clínica Santa Elena, C.C. Centro médico de Barquisimeto. El administrador arma cada mes un reporte de ingresos por especialidad, en bolívares y en dólares, con comparativo contra el mes anterior y contra el mismo mes del año pasado.
+Clínica Santa Elena, C.A. Centro médico de Barquisimeto. El administrador arma cada mes un reporte de ingresos por especialidad, en bolívares y en dólares. Lleva comparativo contra el mes anterior y contra el mismo mes del año pasado.
 
-Le toma seis horas. El sistema exporta un archivo con el encabezado repetido cada cincuenta filas, los montos con punto de miles y coma decimal como texto, y el nombre de la especialidad escrito de tres maneras distintas según quién lo cargó. Cuatro de las seis horas se van en limpiar. Las otras dos en fórmulas que rehace desde cero cada vez.
+Le toma seis horas. El sistema exporta un archivo con el encabezado repetido cada cincuenta filas. Los montos vienen como texto, con punto de miles y coma decimal. Y el nombre de la especialidad aparece escrito de tres maneras distintas, según quién lo cargó. Cuatro de las seis horas se van en limpiar. Las otras dos en fórmulas que rehace desde cero cada vez.
 
 ## Paso a paso
 

@@ -11,7 +11,7 @@ Vas a construir una previsión de caja semanal a trece semanas, con escenarios, 
 
 ## Por qué esto importa en Venezuela
 
-La utilidad contable y la caja acá se divorcian temprano. Una empresa puede reportar ganancia y no tener con qué pagar la nómina de la quincena. Entre la inflación, el crédito a clientes y el inventario que hay que reponer más caro de lo que se vendió, el resultado del estado de resultados dice poco sobre la liquidez de la próxima semana.
+La utilidad contable y la caja acá se divorcian temprano. Una empresa puede reportar ganancia y no tener con qué pagar la nómina de la quincena. Está la inflación, el crédito a clientes y el inventario que hay que reponer más caro de lo que se vendió. Con todo eso encima, el estado de resultados dice poco sobre la liquidez de la próxima semana.
 
 Lo segundo es la moneda. Una previsión seria acá se lleva por moneda separada. Entradas en divisas, entradas en bolívares, salidas en cada una, y solo después se consolida. Proyectar todo en bolívares nominales a tres meses no sirve, porque el bolívar de la semana trece no es el mismo de la semana uno. Proyectar todo en dólares tampoco alcanza si tienes obligaciones en bolívares que crecen con la tasa.
 
@@ -21,7 +21,7 @@ Lo tercero es la cobranza real. La condición de venta dice treinta días. El cl
 
 Textiles del Centro, C.A. Confección en Maracay, sesenta empleados. Vende a tiendas con crédito a treinta días. La cobranza real promedio ronda los cincuenta y dos días.
 
-El gerente lleva la caja en una hoja mensual. Cada tres o cuatro meses aparece una semana en que no alcanza para la nómina y hay que salir a buscar un adelanto de un cliente o una línea del banco, a las carreras y en malas condiciones. Con una previsión semanal, esa semana se ve con cinco o seis semanas de anticipación y la conversación con el banco se tiene con calma.
+El gerente lleva la caja en una hoja mensual. Cada tres o cuatro meses aparece una semana en que no alcanza para la nómina. Hay que salir a buscar un adelanto de un cliente o una línea del banco, a las carreras y en malas condiciones. Con una previsión semanal, esa semana se ve con cinco o seis semanas de anticipación y la conversación con el banco se tiene con calma.
 
 ## Paso a paso
 

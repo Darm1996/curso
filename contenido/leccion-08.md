@@ -7,17 +7,17 @@ entregable: sí
 
 ## Lo que vas a poder hacer al terminar
 
-Vas a procesar un lote de facturas de proveedores y salir con el cálculo de retenciones, el monto neto a pagar y el borrador de los comprobantes. Claude arma la mecánica y te marca lo que no cuadra. Tú validas los porcentajes contra la norma vigente y firmas.
+Vas a procesar un lote de facturas de proveedores. Sales con el cálculo de retenciones, el monto neto a pagar y el borrador de los comprobantes. Claude arma la mecánica y te marca lo que no cuadra. Tú validas los porcentajes contra la norma vigente y firmas.
 
 ## Por qué esto importa en Venezuela
 
 Pagarle a un proveedor acá no es emitir un cheque. Es un proceso con dos retenciones que se calculan sobre bases distintas y se declaran en momentos distintos.
 
-La retención de IVA aplica si la empresa fue designada agente de retención. Se calcula sobre el impuesto de la factura, no sobre el total, y el porcentaje depende de la condición del proveedor y del cumplimiento de los requisitos de la factura [VERIFICAR: porcentajes vigentes y supuestos de aplicación según la providencia del SENIAT sobre agentes de retención de IVA]. Una factura con un requisito formal incompleto cambia el porcentaje aplicable. Ese detalle se revisa factura por factura.
+La retención de IVA aplica si la empresa fue designada agente de retención. Se calcula sobre el impuesto de la factura, no sobre el total. El porcentaje depende de la condición del proveedor y del cumplimiento de los requisitos de la factura. [VERIFICAR: porcentajes vigentes y supuestos de aplicación según la providencia del SENIAT sobre agentes de retención de IVA] Una factura con un requisito formal incompleto cambia el porcentaje aplicable. Ese detalle se revisa factura por factura.
 
-La retención de ISLR se rige por el Decreto 1808 y funciona distinto. Depende del concepto del pago, honorarios profesionales, comisiones, arrendamientos, fletes, servicios, y del tipo de beneficiario, persona natural o jurídica, residente o no [VERIFICAR: porcentajes y conceptos vigentes del Decreto 1808].
+La retención de ISLR se rige por el Decreto 1808 y funciona distinto. Depende del concepto del pago: honorarios profesionales, comisiones, arrendamientos, fletes, servicios. Y del tipo de beneficiario, persona natural o jurídica, residente o no. [VERIFICAR: porcentajes y conceptos vigentes del Decreto 1808]
 
-Acá entra el sustraendo, que es donde más gente se equivoca. Cuando el beneficiario es persona natural residente, la retención no es una multiplicación simple. Se aplica el porcentaje sobre el pago y después se **resta** un monto fijo llamado sustraendo. Ese sustraendo existe para reconocer el tramo de ingreso que no está sujeto a retención, y su valor se deriva del porcentaje aplicable y de la Unidad Tributaria vigente [VERIFICAR: fórmula del sustraendo, factores aplicables y valor vigente de la Unidad Tributaria]. Si el resultado de la resta da negativo, no hay retención. Muchos sistemas mal configurados olvidan el sustraendo y retienen de más. El proveedor reclama, con razón.
+Acá entra el sustraendo, que es donde más gente se equivoca. Cuando el beneficiario es persona natural residente, la retención no es una multiplicación simple. Se aplica el porcentaje sobre el pago y después se **resta** un monto fijo llamado sustraendo. Ese sustraendo existe para reconocer el tramo de ingreso que no está sujeto a retención. Su valor se deriva del porcentaje aplicable y de la Unidad Tributaria vigente. [VERIFICAR: fórmula del sustraendo, factores aplicables y valor vigente de la Unidad Tributaria] Si el resultado de la resta da negativo, no hay retención. Muchos sistemas mal configurados olvidan el sustraendo y retienen de más. El proveedor reclama, con razón.
 
 ## El caso
 

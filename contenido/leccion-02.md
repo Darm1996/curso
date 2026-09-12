@@ -7,19 +7,19 @@ entregable: sí
 
 ## Lo que vas a poder hacer al terminar
 
-Vas a convertir tu cierre mensual en una lista de control que se ejecuta igual todos los meses, sin depender de la memoria de quien lo hizo la vez pasada. Claude te va a redactar los asientos recurrentes, te va a armar el borrador de la narrativa de variaciones y te va a decir qué falta antes de que el gerente te lo pregunte. El cierre no se hace solo. Lo que desaparece es el tiempo que hoy gastas reconstruyendo qué se hizo y qué quedó pendiente.
+Vas a convertir tu cierre mensual en una lista de control que se ejecuta igual todos los meses. Deja de depender de la memoria de quien lo hizo la vez pasada. Claude te va a redactar los asientos recurrentes y el borrador de la narrativa de variaciones. También te va a decir qué falta antes de que el gerente te lo pregunte. El cierre no se hace solo. Lo que desaparece es el tiempo que hoy gastas reconstruyendo qué se hizo y qué quedó pendiente.
 
 ## Por qué esto importa en Venezuela
 
-El cierre acá tiene pasos que no aparecen en ningún manual de otra parte. La reexpresión por inflación, la valoración de partidas en moneda extranjera a tasa BCV de cierre, la diferencia cambiaria del mes y la conciliación entre lo que declaraste al SENIAT y lo que registró la contabilidad. Cada uno de esos pasos tiene un orden. Si reexpresas antes de ajustar la diferencia cambiaria, el número te sale mal y lo vas a descubrir tres meses después.
+El cierre acá tiene pasos que no aparecen en ningún manual de otra parte. La reexpresión por inflación. La valoración de partidas en moneda extranjera a tasa BCV de cierre. La diferencia cambiaria del mes. Y la conciliación entre lo que declaraste al SENIAT y lo que registró la contabilidad. Cada uno de esos pasos tiene un orden. Si reexpresas antes de ajustar la diferencia cambiaria, el número te sale mal y lo vas a descubrir tres meses después.
 
-El segundo problema es la rotación de personal. En la PYME venezolana el asistente contable que armaba el cierre se fue, y con él se fue el conocimiento de por qué la cuenta 6.2.01 se distribuye 60/40 entre dos centros de costo. Una lista de control escrita, con el porqué de cada paso, es lo que evita que el cierre se degrade cada vez que cambia alguien.
+El segundo problema es la rotación de personal. En la PYME venezolana el asistente contable que armaba el cierre se fue. Con él se fue el conocimiento de por qué la cuenta 6.2.01 se distribuye 60/40 entre dos centros de costo. Una lista de control escrita, con el porqué de cada paso, es lo que evita que el cierre se degrade cada vez que cambia alguien.
 
 Lo tercero es el calendario. El cierre contable compite con las obligaciones fiscales del mes. Si el cierre se te va al día doce, ya estás corriendo con la declaración. Ganar tres días de cierre es ganar tres días de tranquilidad fiscal.
 
 ## El caso
 
-Metalúrgica El Tigre, C.A. Taller de estructuras metálicas en Anzoátegui. Cuarenta empleados. El cierre de cada mes le toma nueve días hábiles al departamento de contabilidad. De esos nueve días, cuatro se van en perseguir información: las facturas de compra que el almacén no entregó, la relación de anticipos del área comercial y el corte de producción en proceso.
+Metalúrgica El Tigre, C.A. Taller de estructuras metálicas en Anzoátegui. Cuarenta empleados. El cierre de cada mes le toma nueve días hábiles al departamento de contabilidad. De esos nueve días, cuatro se van en perseguir información. Las facturas de compra que el almacén no entregó, la relación de anticipos del área comercial y el corte de producción en proceso.
 
 El gerente general pide los estados el día cinco. Nunca los recibe antes del día doce. Cuando llegan, lo primero que pregunta es por qué el costo de materia prima subió. Nadie tiene la respuesta lista, y se van otros dos días en armarla.
 

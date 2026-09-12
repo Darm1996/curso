@@ -7,7 +7,7 @@ entregable: sí
 
 ## Lo que vas a poder hacer al terminar
 
-Vas a explicar por qué el resultado real se apartó del presupuesto, separando la parte que es culpa de la gestión de la parte que es culpa del entorno. Vas a salir con el desglose por efecto y con la narrativa lista para el comité.
+Vas a explicar por qué el resultado real se apartó del presupuesto. Vas a separar la parte que es culpa de la gestión de la que es culpa del entorno. Vas a salir con el desglose por efecto y con la narrativa lista para el comité.
 
 ## Por qué esto importa en Venezuela
 
