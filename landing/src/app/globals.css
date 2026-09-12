@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-navy text-white font-sans antialiased;
+  }
+  ::selection { background: #00E68A; color: #0B1120; }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-contenido px-6; }
+  .kicker { @apply text-xs font-bold uppercase tracking-[0.24em] text-verde; }
+  .kicker-oro { @apply text-xs font-bold uppercase tracking-[0.24em] text-dorado; }
+  .h2 { @apply text-3xl font-bold leading-tight tracking-tight sm:text-4xl; }
+  .tarjeta { @apply rounded-lg border border-navy-borde bg-navy-claro p-6; }
+}

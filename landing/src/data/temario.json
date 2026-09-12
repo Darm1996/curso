@@ -1,0 +1,121 @@
+[
+  {
+    "numero": 1,
+    "titulo": "Análisis de Estados Financieros",
+    "duracion": 16,
+    "entregable": true,
+    "resumen": "Vas a tomar el balance general y el estado de resultados de un cliente y entregárselos a Claude. Sales con un análisis de ratios comentado, con la tendencia entre dos periodos y con los puntos que ameritan una conversación seria con el dueño. Hoy eso te toma media mañana armando fórmulas en una hoja que arrastras año tras año. Lo vas a resolver en un cuarto de hora, con el texto ya redactado en lenguaje que el cliente entiende."
+  },
+  {
+    "numero": 2,
+    "titulo": "Automatización del Cierre de Mes",
+    "duracion": 15,
+    "entregable": true,
+    "resumen": "Vas a convertir tu cierre mensual en una lista de control que se ejecuta igual todos los meses. Deja de depender de la memoria de quien lo hizo la vez pasada. Claude te va a redactar los asientos recurrentes y el borrador de la narrativa de variaciones. También te va a decir qué falta antes de que el gerente te lo pregunte. El cierre no se hace solo. Lo que desaparece es el tiempo que hoy gastas reconstruyendo qué se hizo y qué quedó pendiente."
+  },
+  {
+    "numero": 3,
+    "titulo": "Investigación Fiscal y Memorandos",
+    "duracion": 14,
+    "entregable": true,
+    "resumen": "Vas a resolver una consulta fiscal de un cliente en un cuarto de hora, con un memorando escrito, estructurado y defendible. El cambio de método es lo importante: le vas a pegar la norma a Claude en vez de pedírsela. Con ese solo cambio pasas de un asistente que a veces inventa artículos a uno que razona sobre el texto que tú controlas."
+  },
+  {
+    "numero": 4,
+    "titulo": "Preparación de Auditorías",
+    "duracion": 17,
+    "entregable": true,
+    "resumen": "Vas a armar el paquete de preparación de una auditoría sin esperar a que el auditor te mande la lista. Claude te va a generar la relación de documentos por área y los papeles de trabajo base. También las respuestas anticipadas a las preguntas que sabes que van a venir. Si estás del otro lado, como auditor, vas a salir con el programa de trabajo y el memorando de planificación en borrador."
+  },
+  {
+    "numero": 5,
+    "titulo": "Detección de Anomalías",
+    "duracion": 15,
+    "entregable": true,
+    "resumen": "Vas a pasar un mayor analítico o una relación de pagos por una revisión sistemática. Sales con una lista corta de partidas que ameritan explicación. No una lista de doscientas alertas que nadie va a revisar. Diez o quince, priorizadas, cada una con la razón por la que saltó y la pregunta que hay que hacer."
+  },
+  {
+    "numero": 6,
+    "titulo": "Creación de Informes Automatizados en Excel",
+    "duracion": 15,
+    "entregable": true,
+    "resumen": "Vas a dejar de armar a mano el reporte que repites todos los meses. Claude te va a escribir las fórmulas, la estructura de la hoja y, si quieres, el script que hace el trabajo pesado. Tú pegas los datos nuevos y el reporte se actualiza. La primera vez te toma quince minutos. Las siguientes veinte veces te toma dos."
+  },
+  {
+    "numero": 7,
+    "titulo": "Previsión del Flujo de Caja",
+    "duracion": 16,
+    "entregable": true,
+    "resumen": "Vas a construir una previsión de caja semanal a trece semanas, con escenarios, y la vas a poder actualizar cada lunes en diez minutos. Es la herramienta que responde la única pregunta que de verdad quita el sueño en una PYME venezolana: hasta cuándo alcanza la plata."
+  },
+  {
+    "numero": 8,
+    "titulo": "Automatización de Flujos de Cuentas por Pagar",
+    "duracion": 14,
+    "entregable": true,
+    "resumen": "Vas a procesar un lote de facturas de proveedores. Sales con el cálculo de retenciones, el monto neto a pagar y el borrador de los comprobantes. Claude arma la mecánica y te marca lo que no cuadra. Tú validas los porcentajes contra la norma vigente y firmas."
+  },
+  {
+    "numero": 9,
+    "titulo": "Análisis de Desviaciones",
+    "duracion": 15,
+    "entregable": true,
+    "resumen": "Vas a explicar por qué el resultado real se apartó del presupuesto. Vas a separar la parte que es culpa de la gestión de la que es culpa del entorno. Vas a salir con el desglose por efecto y con la narrativa lista para el comité."
+  },
+  {
+    "numero": 10,
+    "titulo": "Redacción de Informes para Clientes",
+    "duracion": 12,
+    "entregable": true,
+    "resumen": "Vas a convertir un análisis técnico en un informe que el cliente lee completo y entiende sin llamarte. El trabajo contable ya lo hiciste. Lo que falta es que se note. Esta lección es sobre eso."
+  },
+  {
+    "numero": 11,
+    "titulo": "Cumplimiento Normativo",
+    "duracion": 14,
+    "entregable": true,
+    "resumen": "Vas a construir la matriz de obligaciones de un cliente, con las tres capas que existen acá: nacional, municipal y parafiscal. Con responsable, periodicidad y evidencia de cumplimiento. Es el documento que evita la multa por la obligación que nadie sabía que existía."
+  },
+  {
+    "numero": 12,
+    "titulo": "Automatización de Conciliaciones",
+    "duracion": 13,
+    "entregable": true,
+    "resumen": "Vas a conciliar un banco contra la contabilidad y salir con las partidas conciliatorias ya clasificadas. Se acabó la diferencia global que hay que perseguir a mano. Sirve igual para conciliar cuentas por cobrar contra el estado del cliente, o el inventario del sistema contra el conteo físico."
+  },
+  {
+    "numero": 13,
+    "titulo": "Procesamiento de Nóminas",
+    "duracion": 15,
+    "entregable": true,
+    "resumen": "Vas a calcular una liquidación de prestaciones sociales completa, con el sistema dual del artículo 142 de la LOTTT. Vas a poder explicarle al trabajador de dónde sale cada cifra. Vas a construir el salario integral con sus alícuotas y vas a separar lo salarial de lo que no lo es."
+  },
+  {
+    "numero": 14,
+    "titulo": "Claude en Excel y Outlook vía conector",
+    "duracion": 14,
+    "entregable": false,
+    "resumen": "Vas a dejar de copiar y pegar entre la hoja de cálculo, el correo y el chat. Claude puede trabajar dentro de tus herramientas mediante integraciones, y eso cambia el ritmo del día. También vas a saber qué información de tus clientes puede pasar por ahí y cuál no."
+  },
+  {
+    "numero": 15,
+    "titulo": "Detección de Patrones de Fraude",
+    "duracion": 13,
+    "entregable": true,
+    "resumen": "Vas a aplicar pruebas de patrón sobre un conjunto grande de transacciones, incluida la ley de Benford. Vas a saber leer el resultado sin sacar conclusiones que los datos no sostienen."
+  },
+  {
+    "numero": 16,
+    "titulo": "Comunicación con Clientes",
+    "duracion": 11,
+    "entregable": true,
+    "resumen": "Vas a tener resueltas las conversaciones difíciles que hoy pospones. Cobrar honorarios atrasados, pedir por quinta vez los mismos recaudos, avisar de un ajuste de tarifa y dar una mala noticia fiscal. Escritas, guardadas como plantillas, listas para usar."
+  },
+  {
+    "numero": 17,
+    "titulo": "Modelado Financiero",
+    "duracion": 17,
+    "entregable": true,
+    "resumen": "Vas a construir un modelo financiero proyectado de varios años que se sostenga en la realidad venezolana, con supuestos explícitos, escenarios y análisis de sensibilidad. Y vas a saber en qué unidad de medida modelar, la decisión que define si el modelo sirve."
+  }
+]
