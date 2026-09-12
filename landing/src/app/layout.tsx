@@ -13,7 +13,10 @@ const TITULO = 'Certificado Contave — Claude para Contadores';
 const DESCRIPCION =
   'Curso de 17 lecciones, 15 minutos al día, para que un contador venezolano use inteligencia artificial en su trabajo diario. Con SENIAT, bolívares, divisas e inflación adentro.';
 
+const SITIO = process.env.NEXT_PUBLIC_SITIO_URL;
+
 export const metadata: Metadata = {
+  ...(SITIO ? { metadataBase: new URL(SITIO) } : {}),
   title: TITULO,
   description: DESCRIPCION,
   openGraph: {
