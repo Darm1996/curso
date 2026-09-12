@@ -119,8 +119,8 @@ function htmlPortada() {
     </div>
   </div>
   <div class="pie">
-    <strong>Daniele Rivalta</strong> · Contador Público<br>
-    Contave · Contabilidad y finanzas con IA · @contave
+    <strong>Contave</strong><br>
+    Contabilidad y finanzas con IA, enfocado en Venezuela · @contave
   </div>
 </div>`);
 }
@@ -226,7 +226,7 @@ function htmlCertificado() {
     </div>
     <div class="firmas">
       <div class="firma"><div class="l"></div><div class="etiqueta">Fecha</div></div>
-      <div class="firma"><div class="l"></div><div class="etiqueta">Daniele Rivalta · Contave</div></div>
+      <div class="firma"><div class="l"></div><div class="etiqueta">Contave</div></div>
     </div>
   </div>
 </div>`);
@@ -235,7 +235,7 @@ function htmlCertificado() {
 // -------------------------------------------------------------- construcción
 
 const PREVIA = process.argv.includes('--preview');
-const PREVIA_DE = new Set(['portada', 'indice', 'modulo0', 'leccion-1', 'anexo', 'certificado']);
+const PREVIA_DE = new Set(['portada', 'creditos', 'indice', 'porque', 'modulo0', 'leccion-1', 'evaluacion', 'datos', 'anexo', 'certificado']);
 
 async function renderizar(pagina, html, margin, id) {
   await pagina.setContent(html, { waitUntil: 'load' });
@@ -312,6 +312,7 @@ async function main() {
   const creditos = leerMd(path.join(CONTENIDO, 'creditos-y-aviso-legal.md'));
   const evaluacion = leerMd(path.join(CONTENIDO, 'evaluacion-final.md'));
   const datos = leerMd(path.join(CONTENIDO, 'datos-normativos.md'));
+  const porQue = leerMd(path.join(CONTENIDO, 'por-que-ahora.md'));
   console.log(`  Lecciones leídas: ${lecciones.length}`);
 
   // 2. Definición de secciones
@@ -319,7 +320,8 @@ async function main() {
     { id: 'portada', html: htmlPortada(), margin: SIN_MARGEN, numerar: false },
     { id: 'creditos', html: htmlSimple('Publicación', 'Créditos y aviso legal', creditos.cuerpo), margin: MARGENES, numerar: true, enIndice: true, tituloIndice: 'Créditos y aviso legal' },
     { id: 'indice', html: null, margin: MARGENES, numerar: true, paginaImpar: true },
-    { id: 'modulo0', html: htmlModulo0(modulo0.meta, modulo0.cuerpo), margin: MARGENES, numerar: true, paginaImpar: true, enIndice: true, grupo: 'Antes de empezar', numIndice: '00', tituloIndice: modulo0.meta.titulo, duracion: modulo0.meta.duracion_min },
+    { id: 'porque', html: htmlSimple('Antes de empezar', porQue.meta.titulo, porQue.cuerpo), margin: MARGENES, numerar: true, paginaImpar: true, enIndice: true, grupo: 'Antes de empezar', tituloIndice: porQue.meta.titulo },
+    { id: 'modulo0', html: htmlModulo0(modulo0.meta, modulo0.cuerpo), margin: MARGENES, numerar: true, paginaImpar: true, enIndice: true, numIndice: '00', tituloIndice: modulo0.meta.titulo, duracion: modulo0.meta.duracion_min },
   ];
 
   lecciones.forEach((l, i) => {
@@ -381,7 +383,7 @@ async function main() {
   const final = await PDFDocument.create();
   final.registerFontkit(fontkit);
   final.setTitle('Certificado Contave — Claude para Contadores');
-  final.setAuthor('Daniele Rivalta');
+  final.setAuthor('Contave');
   final.setSubject('Curso de inteligencia artificial aplicada a la práctica contable venezolana');
   final.setProducer('Contave');
   final.setCreator('Contave');

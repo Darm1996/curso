@@ -3,8 +3,8 @@
 ## Qué es
 Un curso de 17 lecciones (15 min/día) que enseña a contadores venezolanos a usar Claude en su trabajo diario. Se vende y se distribuye desde la marca Contave (@contave), página de contabilidad y finanzas con IA enfocada 100% en Venezuela.
 
-## Autor
-Daniele Rivalta — Contador Público, +10 años en fiscal y finanzas, Tax Manager. El curso habla con su voz: directa, técnica, sin humo.
+## Voz y autoría
+El curso se publica bajo la marca Contave. El material NO lleva sección de biografía del autor: en su lugar va "Por qué este curso, y por qué ahora", que plantea el costo de quedarse atrás con la inteligencia artificial. La voz sigue siendo la de un contador público en ejercicio: directa, técnica, sin humo.
 
 ## Audiencia
 Contadores, asistentes contables y administradores de PYME en Venezuela. Nivel técnico contable alto, nivel de IA bajo o nulo. Trabajan con SENIAT, IVA, ISLR, IGTF, retenciones, VEN-NIF, LOTTT, ajuste por inflación, multimoneda Bs/USD y tasa BCV.
@@ -17,6 +17,11 @@ Contadores, asistentes contables y administradores de PYME en Venezuela. Nivel t
 - Tipografía: Space Grotesk (títulos y cuerpo)
 - Badge de serie arriba a la izquierda en piezas de redes
 - Formato Instagram: carrusel 1080x1350 (4:5), exportado en PNG o JPG
+
+## Convenciones del material
+- **Marca [VERIFICAR]**: única marca del proyecto. Significa "este dato cambia, confírmalo en fuente oficial antes de aplicarlo". No se usa ninguna otra marca equivalente.
+- **Datos normativos**: viven en /contenido/datos-normativos.md, con fecha de corte y fuente. No se repiten dentro de las lecciones.
+- **Formato uniforme**: todas las secciones, lecciones o no, usan la misma estructura de encabezados H2 con prosa debajo. Sin separadores horizontales, sin bloques indentados y sin cursivas decorativas. Los bloques de código se reservan para los prompts.
 
 ## Reglas de contenido — NO NEGOCIABLES
 1. Todo ejemplo es venezolano. Nada de "IRS", "401k", "GAAP americano" salvo comparación explícita.

@@ -1172,4 +1172,4 @@ Estos prompts son el anexo del **Certificado Contave, Claude para Contadores**:
 17 lecciones de 15 minutos que enseñan a usarlos con el caso, el paso a paso y la
 verificación profesional de cada uno.
 
-Daniele Rivalta · Contador Público · **@contave**
+**Contave** · Contabilidad y finanzas con IA, enfocado en Venezuela · **@contave**

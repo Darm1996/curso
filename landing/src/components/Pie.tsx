@@ -6,7 +6,7 @@ export default function Pie() {
           <span className="font-bold text-white">Certificado Contave</span> · Claude para
           Contadores
         </p>
-        <p>Daniele Rivalta · Contador Público · @contave</p>
+        <p>Contabilidad y finanzas con IA, enfocado en Venezuela · @contave</p>
       </div>
     </footer>
   );

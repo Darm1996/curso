@@ -151,7 +151,7 @@ function laminas(meta, t) {
       <div class="cierre-regla"></div>
       <div class="cierre-dato">Lección ${dosDigitos(numero)} de 17 del Certificado Contave.<br>17 lecciones, 15 minutos al día.</div>
       <div class="cierre-arroba">Sigue @contave</div>`,
-    { ...base, indice: 7, pie: 'Daniele Rivalta · Contador Público' }),
+    { ...base, indice: 7, pie: 'Contave · Venezuela' }),
   ];
 }
 

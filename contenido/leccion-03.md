@@ -21,7 +21,7 @@ La tercera razón es de oficio. El memorando fiscal bien escrito es lo que separ
 
 Inversiones Karú, C.A. Cadena de tres tiendas de repuestos en Valencia. El cliente llama con una duda concreta: un cliente le pagó una factura de Bs. 48.000 así, mitad por transferencia en bolívares desde un banco nacional y mitad en efectivo en divisas. Quiere saber cómo queda el IGTF, quién lo cobra y cómo se factura.
 
-La duda es legítima y tiene aristas. El tratamiento depende del medio de pago y de la condición del pagador. La Providencia SNAT/2022/000013 designa agentes de percepción y exige reflejar el IGTF en la factura. Las alícuotas cambian seguido, así que esas salen de la Gaceta del mes. [CONFIRMAR VIGENCIA] La respuesta improvisada por chat es un riesgo. La respuesta con memorando es un servicio.
+La duda es legítima y tiene aristas. El tratamiento depende del medio de pago y de la condición del pagador. La Providencia SNAT/2022/000013 designa agentes de percepción y exige reflejar el IGTF en la factura. Las alícuotas cambian seguido, así que esas salen de la Gaceta del mes. [VERIFICAR] La respuesta improvisada por chat es un riesgo. La respuesta con memorando es un servicio.
 
 ## Paso a paso
 

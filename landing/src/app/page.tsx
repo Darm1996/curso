@@ -2,7 +2,7 @@ import Hero from '@/components/Hero';
 import Dolor from '@/components/Dolor';
 import Temario from '@/components/Temario';
 import ParaQuien from '@/components/ParaQuien';
-import Autor from '@/components/Autor';
+import PorQueAhora from '@/components/PorQueAhora';
 import Faq from '@/components/Faq';
 import Captura from '@/components/Captura';
 import AvisoNormativo from '@/components/AvisoNormativo';
@@ -13,9 +13,9 @@ export default function Pagina() {
     <main>
       <Hero />
       <Dolor />
+      <PorQueAhora />
       <Temario />
       <ParaQuien />
-      <Autor />
       <Faq />
       <Captura />
       <AvisoNormativo />

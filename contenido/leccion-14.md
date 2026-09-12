@@ -25,7 +25,7 @@ Una tarde, uno de ellos responde un correo sobre un análisis de márgenes y adj
 
 ## Paso a paso
 
-1. **Verifica qué integraciones están disponibles en tu plan y en tu versión de Office.** Las extensiones para Excel, PowerPoint y Word están disponibles en los planes de pago. La de Outlook está en beta, también en planes de pago. Esto cambia seguido, así que confírmalo en la documentación oficial antes de instalar nada. [CONFIRMAR VIGENCIA]
+1. **Verifica qué integraciones están disponibles en tu plan y en tu versión de Office.** Las extensiones para Excel, PowerPoint y Word están disponibles en los planes de pago. La de Outlook está en beta, también en planes de pago. Esto cambia seguido, así que confírmalo en la documentación oficial antes de instalar nada. [VERIFICAR]
 
 2. **Empieza por un archivo sin datos de clientes.** Una plantilla propia, cifras inventadas. Aprende el comportamiento de la herramienta antes de ponerle información real.
 
