@@ -52,6 +52,17 @@ Corre `supabase/migrations/0001_leads.sql` en el editor SQL del proyecto. Crea l
 tabla `leads` con las columnas `id`, `email`, `nombre`, `origen` y `created_at`,
 el índice único por correo y las políticas RLS.
 
+### Cuidado al modificar el insert
+
+El insert del endpoint NO lleva `.select()` ni `returning`, y tiene que seguir
+así. Con RLS activo, devolver la fila insertada exige además una política de
+SELECT, y `anon` no la tiene a propósito. Si alguien agrega un `.select()` para
+recuperar el id, el insert empieza a fallar con "new row violates row-level
+security policy" aunque la política de INSERT esté correcta.
+
+Comprobado contra la base real: `anon` inserta, pero no lee, no actualiza y no
+borra.
+
 ### Variables de entorno
 
 | Variable | Dónde sale |

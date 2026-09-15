@@ -34,6 +34,8 @@ export async function POST(peticion: Request) {
     );
   }
 
+  // Sin .select(): devolver la fila exigiría una política de SELECT para anon,
+  // que no existe a propósito. Agregarlo rompe el insert.
   const { error } = await supabase.from('leads').insert(validado.datos);
 
   if (error) {
