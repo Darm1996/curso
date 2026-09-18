@@ -52,6 +52,35 @@
     50%      { opacity: 1;    transform: translate3d(2%, 1.5%, 0) scale(1.06); }
   }
 
+  /* Cinta infinita. La pista lleva el contenido duplicado, así que
+     desplazarla la mitad deja el bucle sin costura. */
+  .cinta-pista {
+    animation: desfilar 45s linear infinite;
+  }
+  .cinta:hover .cinta-pista { animation-play-state: paused; }
+
+  @keyframes desfilar {
+    from { transform: translate3d(0, 0, 0); }
+    to   { transform: translate3d(-50%, 0, 0); }
+  }
+
+  /* Brillo que recorre el botón principal cada tanto. */
+  .brilla { position: relative; overflow: hidden; }
+  .brilla::after {
+    content: '';
+    position: absolute;
+    inset: 0 auto 0 -40%;
+    width: 40%;
+    background: linear-gradient(100deg, transparent, rgba(255,255,255,0.55), transparent);
+    animation: recorrer 3.6s ease-in-out infinite;
+    pointer-events: none;
+  }
+
+  @keyframes recorrer {
+    0%, 55% { transform: translateX(0); }
+    100%    { transform: translateX(350%); }
+  }
+
   @keyframes entrar {
     from { opacity: 0; transform: translateY(18px); }
     to   { opacity: 1; transform: none; }
@@ -72,6 +101,8 @@
   .flota:hover { transform: none; }
   .resplandor::before { animation: none; }
   .entra { animation: none; }
+  .cinta-pista { animation: none; }
+  .brilla::after { animation: none; display: none; }
   html { scroll-behavior: auto; }
 }
 

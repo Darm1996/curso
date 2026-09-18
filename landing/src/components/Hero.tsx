@@ -1,4 +1,5 @@
 import temario from '@/data/temario.json';
+import Contador from './Contador';
 
 export default function Hero() {
   const minutos = temario.reduce((a, l) => a + l.duracion, 0);
@@ -25,25 +26,25 @@ export default function Hero() {
         <dl className="entra mt-12 flex flex-wrap gap-x-12 gap-y-6 border-t border-navy-borde pt-8" style={{ animationDelay: '220ms' }}>
           <div>
             <dt className="text-[0.7rem] font-bold uppercase tracking-[0.2em] text-gris">Lecciones</dt>
-            <dd className="text-3xl font-bold text-dorado">{temario.length}</dd>
+            <dd className="text-3xl font-bold text-dorado"><Contador hasta={temario.length} /></dd>
           </div>
           <div>
             <dt className="text-[0.7rem] font-bold uppercase tracking-[0.2em] text-gris">Por día</dt>
-            <dd className="text-3xl font-bold text-dorado">15 min</dd>
+            <dd className="text-3xl font-bold text-dorado"><Contador hasta={15} sufijo=" min" /></dd>
           </div>
           <div>
             <dt className="text-[0.7rem] font-bold uppercase tracking-[0.2em] text-gris">Entregables</dt>
-            <dd className="text-3xl font-bold text-dorado">8</dd>
+            <dd className="text-3xl font-bold text-dorado"><Contador hasta={8} /></dd>
           </div>
           <div>
             <dt className="text-[0.7rem] font-bold uppercase tracking-[0.2em] text-gris">En total</dt>
-            <dd className="text-3xl font-bold text-dorado">{Math.round(minutos / 60)} h</dd>
+            <dd className="text-3xl font-bold text-dorado"><Contador hasta={Math.round(minutos / 60)} sufijo=" h" /></dd>
           </div>
         </dl>
 
         <a
           href="#quiero-entrar"
-          className="entra mt-12 inline-block bg-verde px-8 py-4 text-base font-bold text-navy transition duration-300 hover:-translate-y-0.5 hover:bg-white hover:shadow-[0_14px_30px_-12px_rgba(0,230,138,0.7)]"
+          className="brilla entra mt-12 inline-block bg-verde px-8 py-4 text-base font-bold text-navy transition duration-300 hover:-translate-y-0.5 hover:bg-white hover:shadow-[0_14px_30px_-12px_rgba(0,230,138,0.7)]"
           style={{ animationDelay: '320ms' }}
         >
           Quiero la biblioteca de prompts

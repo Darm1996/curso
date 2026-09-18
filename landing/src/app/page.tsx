@@ -1,4 +1,6 @@
+import BarraProgreso from '@/components/BarraProgreso';
 import Hero from '@/components/Hero';
+import Cinta from '@/components/Cinta';
 import Dolor from '@/components/Dolor';
 import Temario from '@/components/Temario';
 import ParaQuien from '@/components/ParaQuien';
@@ -11,7 +13,9 @@ import Pie from '@/components/Pie';
 export default function Pagina() {
   return (
     <main>
+      <BarraProgreso />
       <Hero />
+      <Cinta />
       <Dolor />
       <PorQueAhora />
       <Temario />
