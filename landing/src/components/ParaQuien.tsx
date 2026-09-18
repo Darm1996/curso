@@ -1,3 +1,5 @@
+import Revelar from './Revelar';
+
 const ES = [
   'Contadores públicos con cartera de clientes que quieren dejar de regalar horas.',
   'Asistentes contables que hacen el trabajo mecánico y quieren pasar al criterio.',
@@ -16,11 +18,14 @@ export default function ParaQuien() {
   return (
     <section className="border-b border-navy-borde">
       <div className="contenedor py-20">
-        <p className="kicker">Antes de comprar</p>
-        <h2 className="h2 mt-6">Para quién es y para quién no</h2>
+        <Revelar>
+          <p className="kicker">Antes de comprar</p>
+          <h2 className="h2 mt-6">Para quién es y para quién no</h2>
+        </Revelar>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
-          <div className="tarjeta border-l-4 border-l-verde">
+          <Revelar>
+          <div className="tarjeta flota h-full border-l-4 border-l-verde">
             <h3 className="text-lg font-bold text-verde">Es para ti si</h3>
             <ul className="mt-6 space-y-4">
               {ES.map((t) => (
@@ -32,7 +37,10 @@ export default function ParaQuien() {
             </ul>
           </div>
 
-          <div className="tarjeta border-l-4 border-l-dorado">
+          </Revelar>
+
+          <Revelar retraso={120}>
+          <div className="tarjeta flota h-full border-l-4 border-l-dorado">
             <h3 className="text-lg font-bold text-dorado">No es para ti si</h3>
             <ul className="mt-6 space-y-4">
               {NO_ES.map((t) => (
@@ -43,6 +51,7 @@ export default function ParaQuien() {
               ))}
             </ul>
           </div>
+          </Revelar>
         </div>
       </div>
     </section>

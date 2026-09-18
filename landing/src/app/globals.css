@@ -10,6 +10,71 @@
   ::selection { background: #00E68A; color: #0B1120; }
 }
 
+@layer utilities {
+  /* Entrada al hacer scroll. La clase .visible la pone el componente Revelar. */
+  .revelar {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+                transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+  .revelar.visible { opacity: 1; transform: none; }
+
+  /* Tarjetas que responden al cursor. */
+  .flota {
+    transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+                border-color 0.35s ease,
+                box-shadow 0.35s ease;
+  }
+  .flota:hover {
+    transform: translateY(-4px);
+    border-color: rgba(0, 230, 138, 0.45);
+    box-shadow: 0 18px 40px -22px rgba(0, 230, 138, 0.55);
+  }
+
+  /* Resplandor lento detrás del hero, para que la página no arranque plana. */
+  .resplandor::before {
+    content: '';
+    position: absolute;
+    inset: -20% -10% auto -10%;
+    height: 70%;
+    background: radial-gradient(60% 60% at 25% 20%, rgba(0, 230, 138, 0.16), transparent 70%),
+                radial-gradient(50% 50% at 80% 10%, rgba(246, 177, 1, 0.10), transparent 70%);
+    filter: blur(20px);
+    animation: respirar 14s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  @keyframes respirar {
+    0%, 100% { opacity: 0.75; transform: translate3d(0, 0, 0) scale(1); }
+    50%      { opacity: 1;    transform: translate3d(2%, 1.5%, 0) scale(1.06); }
+  }
+
+  @keyframes entrar {
+    from { opacity: 0; transform: translateY(18px); }
+    to   { opacity: 1; transform: none; }
+  }
+  .entra { animation: entrar 0.8s cubic-bezier(0.22, 1, 0.36, 1) both; }
+}
+
+/* Sin JavaScript no hay quien ponga la clase .visible, así que el contenido
+   se muestra de una vez. Una página sin animación se lee; una página en
+   blanco, no. */
+@media (scripting: none) {
+  .revelar { opacity: 1 !important; transform: none !important; }
+}
+
+/* Quien pidió menos movimiento, recibe menos movimiento. */
+@media (prefers-reduced-motion: reduce) {
+  .revelar { opacity: 1; transform: none; transition: none; }
+  .flota:hover { transform: none; }
+  .resplandor::before { animation: none; }
+  .entra { animation: none; }
+  html { scroll-behavior: auto; }
+}
+
 @layer components {
   .contenedor { @apply mx-auto w-full max-w-contenido px-6; }
   .kicker { @apply text-xs font-bold uppercase tracking-[0.24em] text-verde; }

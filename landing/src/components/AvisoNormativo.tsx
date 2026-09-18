@@ -1,7 +1,10 @@
+import Revelar from './Revelar';
+
 export default function AvisoNormativo() {
   return (
     <section className="border-b border-navy-borde">
       <div className="contenedor py-16">
+        <Revelar>
         <div className="border-l-4 border-dorado bg-navy-claro p-6 sm:p-8">
           <p className="kicker-oro">Aviso importante</p>
           <p className="mt-5 max-w-3xl text-sm leading-relaxed text-gris">
@@ -23,6 +26,7 @@ export default function AvisoNormativo() {
             informe, cálculo o declaración corresponde a quien lo suscribe.
           </p>
         </div>
+        </Revelar>
       </div>
     </section>
   );

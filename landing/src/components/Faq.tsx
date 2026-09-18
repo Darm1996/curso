@@ -1,3 +1,5 @@
+import Revelar from './Revelar';
+
 const PREGUNTAS = [
   {
     p: '¿Necesito pagar Claude para hacer el curso?',
@@ -33,23 +35,26 @@ export default function Faq() {
   return (
     <section id="preguntas" className="border-b border-navy-borde">
       <div className="contenedor py-20">
-        <p className="kicker">Preguntas frecuentes</p>
-        <h2 className="h2 mt-6">Lo que todo el mundo pregunta</h2>
+        <Revelar>
+          <p className="kicker">Preguntas frecuentes</p>
+          <h2 className="h2 mt-6">Lo que todo el mundo pregunta</h2>
+        </Revelar>
 
-        <div className="mt-12 divide-y divide-navy-borde border-y border-navy-borde">
-          {PREGUNTAS.map(({ p, r }) => (
-            <details key={p} className="group py-6">
-              <summary className="flex cursor-pointer list-none items-start justify-between gap-6 text-lg font-bold leading-snug">
-                {p}
-                <span
-                  className="mt-1 shrink-0 text-verde transition group-open:rotate-45"
-                  aria-hidden
-                >
-                  +
-                </span>
-              </summary>
-              <p className="mt-4 max-w-3xl text-base leading-relaxed text-gris">{r}</p>
-            </details>
+        {/* Sin acordeón: las respuestas están a la vista. Quien busca una
+            objeción concreta no debería tener que ir abriendo pestañas. */}
+        <div className="mt-12 grid gap-5 md:grid-cols-2">
+          {PREGUNTAS.map(({ p, r }, i) => (
+            <Revelar key={p} retraso={i * 70}>
+              <article className="flota h-full rounded-lg border border-navy-borde bg-navy-claro p-6">
+                <h3 className="flex gap-3 text-lg font-bold leading-snug">
+                  <span aria-hidden className="text-verde">
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
+                  {p}
+                </h3>
+                <p className="mt-4 text-sm leading-relaxed text-gris">{r}</p>
+              </article>
+            </Revelar>
           ))}
         </div>
       </div>

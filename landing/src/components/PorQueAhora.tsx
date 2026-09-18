@@ -1,3 +1,5 @@
+import Revelar from './Revelar';
+
 const BLOQUES = [
   {
     titulo: 'El problema no es el que crees',
@@ -33,14 +35,17 @@ export default function PorQueAhora() {
   return (
     <section id="por-que" className="border-b border-navy-borde">
       <div className="contenedor py-20">
-        <p className="kicker-oro">Por qué ahora</p>
-        <h2 className="h2 mt-6 max-w-3xl">
-          Quedarse quieto también es una decisión, y tiene precio.
-        </h2>
+        <Revelar>
+          <p className="kicker-oro">Por qué ahora</p>
+          <h2 className="h2 mt-6 max-w-3xl">
+            Quedarse quieto también es una decisión, y tiene precio.
+          </h2>
+        </Revelar>
 
         <div className="mt-12 grid gap-px overflow-hidden rounded-lg border border-navy-borde bg-navy-borde sm:grid-cols-2">
-          {BLOQUES.map((b) => (
-            <article key={b.titulo} className="bg-navy-claro p-6 sm:p-8">
+          {BLOQUES.map((b, i) => (
+            <Revelar key={b.titulo} retraso={i * 90} className="h-full">
+            <article className="flota h-full bg-navy-claro p-6 sm:p-8">
               <h3 className="text-lg font-bold leading-snug text-verde">{b.titulo}</h3>
               {b.parrafos.map((p) => (
                 <p key={p} className="mt-4 text-sm leading-relaxed text-gris">
@@ -48,6 +53,7 @@ export default function PorQueAhora() {
                 </p>
               ))}
             </article>
+            </Revelar>
           ))}
         </div>
 
