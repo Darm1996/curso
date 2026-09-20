@@ -49,3 +49,25 @@ export async function POST(peticion: Request) {
 
   return NextResponse.json({ ok: true });
 }
+
+/**
+ * Chequeo de salud. Sirve para confirmar, sin escribir nada y sin exponer
+ * valores, que las variables llegaron al entorno de ejecución y que Supabase
+ * responde desde la función. La consulta devuelve cero filas siempre: anon no
+ * tiene política de SELECT. Lo que se está midiendo es que el viaje ocurra.
+ */
+export async function GET() {
+  const supabase = clienteSupabase();
+  if (!supabase) {
+    return NextResponse.json({ ok: false, configurado: false, alcanzable: false }, { status: 503 });
+  }
+
+  const { error } = await supabase.from('leads').select('id').limit(1);
+
+  return NextResponse.json({
+    ok: !error,
+    configurado: true,
+    alcanzable: !error,
+    detalle: error ? error.message : null,
+  });
+}
