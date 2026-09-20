@@ -6,18 +6,51 @@ Los 19 correos de `/emails` salen solos. Esto explica cómo.
 
 ```
 Formulario  ->  /api/leads  ->  insert en leads (clave anónima)
-                                       |
-                                       v
-                        disparador en Postgres programa
-                        las 19 filas en la tabla envios
-                                       |
-                                       v
-            cron cada hora  ->  /api/cron/secuencia  ->  Resend
+                                  |            |
+                                  |            v
+                                  |    disparador en Postgres
+                                  |    programa los días 1 a 18
+                                  |    en la tabla envios
+                                  v                 |
+                       día 0 por Resend             v
+                       en el acto        cron diario 12:00 UTC
+                                         /api/cron/secuencia -> Resend
 ```
 
-El día 0 se programa para el momento del registro, así que sale en la corrida
-siguiente. Los días 1 a 18 salen a las 8 de la mañana de Caracas del día que
-les toca, sin importar a qué hora se registró la persona.
+El día 0 sale en el momento del registro, desde el endpoint. Los días 1 a 18
+salen a las 8 de la mañana de Caracas del día que les toca, sin importar a qué
+hora se registró la persona.
+
+## Por qué el día 0 va aparte
+
+El plan Hobby de Vercel solo permite **un cron al día**. Está verificado: con
+una expresión horaria el despliegue se rechaza con `cron_jobs_limits_reached`.
+
+Si la bienvenida dependiera del cron, alguien que se registra a las nueve de la
+mañana esperaría hasta el día siguiente. El formulario promete minutos. Por eso
+ese correo sale directo desde el endpoint.
+
+El precio de esa decisión: si Resend falla en ese instante, la persona pierde
+la bienvenida. No pierde el curso, porque los días 1 al 18 ya quedaron
+programados. El fallo queda en el log.
+
+## El techo de envíos
+
+Una corrida manda a dos por segundo durante cincuenta segundos: unos cien
+correos. A diecinueve correos por persona, eso sostiene alrededor de **seis
+inscripciones diarias** en régimen permanente. Si entran más, la cola crece y
+no drena.
+
+Dos salidas cuando llegue ese momento:
+
+| Salida | Costo | Qué cambia |
+|---|---|---|
+| Plan Pro de Vercel | Mensual | El cron puede correr cada pocos minutos. Solo se edita `vercel.json`. |
+| `pg_cron` en Supabase | Sin costo adicional | Postgres llama a esta misma ruta cada pocos minutos con `pg_net`. No cambia código. |
+
+La segunda no la he probado en esta cuenta. Antes de contarla como hecha hay
+que confirmar que las extensiones `pg_cron` y `pg_net` están disponibles en el
+plan que tenga el proyecto.
 
 ## Por qué un disparador y no el endpoint
 

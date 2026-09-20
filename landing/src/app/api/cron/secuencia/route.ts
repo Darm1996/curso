@@ -6,11 +6,23 @@ export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 export const maxDuration = 60;
 
-/** Cuántos correos manda una corrida. Resend limita por segundo; el lote
- *  se manda en serie con una pausa corta y este tope evita pasarse del
- *  tiempo máximo de la función. Lo que sobre lo agarra la corrida siguiente. */
-const LOTE = 40;
-const PAUSA_MS = 600;
+/**
+ * Límites de una corrida.
+ *
+ * El plan Hobby de Vercel solo permite un cron diario, y la función tiene un
+ * tiempo máximo. De ahí salen estos números: se manda a dos por segundo, que
+ * es lo que admite Resend, hasta agotar el presupuesto de tiempo. Lo que
+ * sobre lo agarra la corrida siguiente, porque la consulta ordena por fecha
+ * y lo más viejo sale primero.
+ *
+ * El techo práctico es de unos cien correos por corrida. A diecinueve correos
+ * por persona eso sostiene alrededor de seis inscripciones diarias en régimen.
+ * Cuando el ritmo suba hay dos salidas, las dos documentadas en CORREOS.md:
+ * el plan Pro de Vercel, o pg_cron en Supabase llamando a esta misma ruta.
+ */
+const LOTE = 250;
+const PAUSA_MS = 500;
+const PRESUPUESTO_MS = 50_000;
 
 type Pendiente = {
   id: string;
@@ -57,10 +69,16 @@ export async function GET(peticion: Request) {
   }
 
   const pendientes = (data ?? []) as unknown as Pendiente[];
+  const arranque = Date.now();
   let enviados = 0;
   let fallados = 0;
+  let revisados = 0;
 
   for (const fila of pendientes) {
+    // Cortar a tiempo es parte del diseño, no una falla. Una función que se
+    // pasa del límite muere a mitad de un envío y deja la fila sin marcar.
+    if (Date.now() - arranque > PRESUPUESTO_MS) break;
+    revisados++;
     const correo = correoDelDia(fila.dia);
 
     // Una fila sin destinatario o sin correo del día no se reintenta: el
@@ -95,5 +113,11 @@ export async function GET(peticion: Request) {
     await new Promise((listo) => setTimeout(listo, PAUSA_MS));
   }
 
-  return NextResponse.json({ ok: true, revisados: pendientes.length, enviados, fallados });
+  return NextResponse.json({
+    ok: true,
+    revisados,
+    enviados,
+    fallados,
+    pendientes: pendientes.length - revisados,
+  });
 }

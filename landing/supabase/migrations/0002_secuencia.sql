@@ -44,17 +44,15 @@ as $$
 declare
   dia_local date := (new.created_at at time zone 'America/Caracas')::date;
 begin
-  -- Día 0 sale de inmediato. Los demás, a las 8 de la mañana de Caracas del
-  -- día que les toca, sin importar a qué hora se registró la persona.
+  -- Del día 1 al 18. El día 0 no se programa acá: lo manda el endpoint en el
+  -- acto, apenas la persona se registra, porque el trabajo periódico corre una
+  -- vez al día y nadie espera veinticuatro horas por un correo de bienvenida.
+  --
+  -- Cada correo sale a las 8 de la mañana de Caracas del día que le toca, sin
+  -- importar a qué hora se registró la persona.
   insert into public.envios (lead_id, dia, programado_para)
-  select
-    new.id,
-    d,
-    case
-      when d = 0 then new.created_at
-      else ((dia_local + d) + time '08:00') at time zone 'America/Caracas'
-    end
-  from generate_series(0, 18) as d
+  select new.id, d, ((dia_local + d) + time '08:00') at time zone 'America/Caracas'
+  from generate_series(1, 18) as d
   on conflict (lead_id, dia) do nothing;
 
   return new;

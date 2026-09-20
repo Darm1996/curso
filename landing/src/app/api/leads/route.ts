@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { clienteSupabase } from '@/lib/supabase';
 import { validarLead } from '@/lib/validacion';
-import { SECUENCIA } from '@/lib/correo';
+import { SECUENCIA, correoDelDia, enviar } from '@/lib/correo';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -46,6 +46,18 @@ export async function POST(peticion: Request) {
     }
     console.error('Error al guardar el lead:', error.message);
     return NextResponse.json({ error: 'No pudimos guardar tu correo. Intenta de nuevo.' }, { status: 500 });
+  }
+
+  // El correo de bienvenida sale acá y no en el trabajo periódico, que corre
+  // una vez al día. Nadie espera veinticuatro horas por una bienvenida.
+  //
+  // Si Resend falla, la persona pierde ese correo pero conserva su lugar: los
+  // días 1 al 18 ya quedaron programados por el disparador. Se registra en el
+  // log y no se le devuelve error a alguien que sí quedó inscrito.
+  const bienvenida = correoDelDia(0);
+  if (bienvenida) {
+    const envio = await enviar(bienvenida, validado.datos.email, validado.datos.nombre);
+    if (!envio.ok) console.error('No salió la bienvenida:', envio.error);
   }
 
   return NextResponse.json({ ok: true });

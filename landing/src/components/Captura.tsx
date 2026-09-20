@@ -48,7 +48,7 @@ export default function Captura() {
       setMensaje(
         datos.repetido
           ? 'Ese correo ya estaba registrado. La secuencia sigue su curso.'
-          : 'Listo. El primer correo te llega dentro de la próxima hora.',
+          : 'Listo. Revisa tu correo en los próximos minutos.',
       );
     } catch {
       setEstado('error');
