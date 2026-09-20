@@ -1,0 +1,274 @@
+[
+  {
+    "dia": 0,
+    "leccion": null,
+    "asunto": "Empezamos mañana. Lee esto primero",
+    "preencabezado": "Cuatro reglas antes de la lección 1.",
+    "parrafos": [
+      "Bienvenido al Certificado Contave.",
+      "Durante los próximos diecisiete días te llega un correo diario con una lección de quince minutos. Cada una resuelve una tarea concreta de tu escritorio: el cierre, las retenciones, la conciliación, el informe que el cliente no lee.",
+      "Antes de la primera, cuatro reglas. Si te saltas una, el resto no te va a servir de mucho.",
+      "<strong>La norma la traes tú.</strong> Un modelo de lenguaje no es fuente normativa. La buscas en fuente oficial y se la pegas dentro del prompt.",
+      "<strong>Declara el contexto antes de pedir el resultado.</strong> En qué moneda están las cifras, si están reexpresadas, cuál es la condición del contribuyente, en qué municipio opera.",
+      "<strong>Verifica antes de firmar.</strong> Tú firmas. Esa responsabilidad no se transfiere a ninguna herramienta.",
+      "<strong>Prueba contra un caso que ya cerraste.</strong> Nunca estrenes un método en un entregable que va hacia el cliente.",
+      "Para mañana ten a mano los estados financieros de un cliente real, de dos periodos. Con eso hacemos el primer ejercicio."
+    ],
+    "texto": "Bienvenido al Certificado Contave.\n\nDurante los próximos diecisiete días te llega un correo diario con una lección de quince minutos. Cada una resuelve una tarea concreta de tu escritorio: el cierre, las retenciones, la conciliación, el informe que el cliente no lee.\n\nAntes de la primera, cuatro reglas. Si te saltas una, el resto no te va a servir de mucho.\n\nLa norma la traes tú. Un modelo de lenguaje no es fuente normativa. La buscas en fuente oficial y se la pegas dentro del prompt.\n\nDeclara el contexto antes de pedir el resultado. En qué moneda están las cifras, si están reexpresadas, cuál es la condición del contribuyente, en qué municipio opera.\n\nVerifica antes de firmar. Tú firmas. Esa responsabilidad no se transfiere a ninguna herramienta.\n\nPrueba contra un caso que ya cerraste. Nunca estrenes un método en un entregable que va hacia el cliente.\n\nPara mañana ten a mano los estados financieros de un cliente real, de dos periodos. Con eso hacemos el primer ejercicio."
+  },
+  {
+    "dia": 1,
+    "leccion": 1,
+    "asunto": "Tu ratio está mintiendo",
+    "preencabezado": "La trampa no está en la división.",
+    "parrafos": [
+      "Un ratio es una división. La trampa está en lo que divides.",
+      "Si comparas las ventas de este año contra las del anterior en bolívares nominales, no estás midiendo crecimiento. Estás midiendo cuánto perdió la moneda. Y la conclusión que le lleves al cliente va a ser falsa.",
+      "Por eso la lección de hoy arranca por una línea que casi todo el mundo se salta: declarar la base de medición dentro del prompt. Si las cifras están reexpresadas, lo dices. Si están convertidas a dólares, dices a qué tasa. Si están en bolívares nominales, también lo dices, y le pides que te advierta qué conclusiones no se pueden sostener sobre esa base.",
+      "Pide además las fórmulas visibles, con numerador y denominador. Así verificas en segundos si tomó la partida correcta.",
+      "Quince minutos cronometrados. Toma los estados financieros de un cliente real, de dos periodos, y corre el prompt maestro. Terminaste bien si sales con la tabla de ratios y con las cinco preguntas que le vas a hacer al dueño el lunes."
+    ],
+    "texto": "Un ratio es una división. La trampa está en lo que divides.\n\nSi comparas las ventas de este año contra las del anterior en bolívares nominales, no estás midiendo crecimiento. Estás midiendo cuánto perdió la moneda. Y la conclusión que le lleves al cliente va a ser falsa.\n\nPor eso la lección de hoy arranca por una línea que casi todo el mundo se salta: declarar la base de medición dentro del prompt. Si las cifras están reexpresadas, lo dices. Si están convertidas a dólares, dices a qué tasa. Si están en bolívares nominales, también lo dices, y le pides que te advierta qué conclusiones no se pueden sostener sobre esa base.\n\nPide además las fórmulas visibles, con numerador y denominador. Así verificas en segundos si tomó la partida correcta.\n\nQuince minutos cronometrados. Toma los estados financieros de un cliente real, de dos periodos, y corre el prompt maestro. Terminaste bien si sales con la tabla de ratios y con las cinco preguntas que le vas a hacer al dueño el lunes."
+  },
+  {
+    "dia": 2,
+    "leccion": 2,
+    "asunto": "Los 4 días que pierdes en cada cierre",
+    "preencabezado": "No están donde crees.",
+    "parrafos": [
+      "Un cierre de nueve días rara vez son nueve días de trabajo. Suelen ser cinco de trabajo y cuatro de perseguir información que otro departamento no entregó.",
+      "El error al pedir ayuda acá es pedir el cierre ideal. Te devuelven un proceso de manual que supone un ERP integrado y un área de costos que no tienes. Nadie lo sigue y a los dos meses estás cerrando igual.",
+      "Haz lo contrario. Escribe tu cierre real, en bruto, con demoras y nombres, tal como ocurre hoy. Diez minutos, sin editar ni mejorar nada. Y pide que lo convierta en una lista secuenciada, con responsable, insumo y dependencia de cada paso.",
+      "Lo que buscas es la ruta crítica: los pasos que atrasan todo lo demás cuando se atrasan. Ahí están tus días perdidos, casi nunca en las tareas que más te cuestan.",
+      "Quince minutos. Describe tu cierre y córrelo por el prompt. Terminaste bien si encontraste al menos un paso que hoy haces en serie y podría ir en paralelo. Casi siempre aparece uno."
+    ],
+    "texto": "Un cierre de nueve días rara vez son nueve días de trabajo. Suelen ser cinco de trabajo y cuatro de perseguir información que otro departamento no entregó.\n\nEl error al pedir ayuda acá es pedir el cierre ideal. Te devuelven un proceso de manual que supone un ERP integrado y un área de costos que no tienes. Nadie lo sigue y a los dos meses estás cerrando igual.\n\nHaz lo contrario. Escribe tu cierre real, en bruto, con demoras y nombres, tal como ocurre hoy. Diez minutos, sin editar ni mejorar nada. Y pide que lo convierta en una lista secuenciada, con responsable, insumo y dependencia de cada paso.\n\nLo que buscas es la ruta crítica: los pasos que atrasan todo lo demás cuando se atrasan. Ahí están tus días perdidos, casi nunca en las tareas que más te cuestan.\n\nQuince minutos. Describe tu cierre y córrelo por el prompt. Terminaste bien si encontraste al menos un paso que hoy haces en serie y podría ir en paralelo. Casi siempre aparece uno."
+  },
+  {
+    "dia": 3,
+    "leccion": 3,
+    "asunto": "Nunca le pidas la norma al modelo",
+    "preencabezado": "El flujo correcto va al revés.",
+    "parrafos": [
+      "Esta es la lección donde más gente se quema, así que va directo.",
+      "Si le preguntas cuál es el porcentaje de retención de ISLR para honorarios profesionales, te va a responder. Con seguridad, con número de artículo y con aspecto de verdad. Esa respuesta te puede costar un reparo, porque ningún modelo tiene garantizado el texto vigente de una providencia del SENIAT.",
+      "El flujo correcto va al revés. Tú buscas la norma en la fuente oficial, la copias completa y se la pegas dentro del prompt. Y agregas una instrucción que manda sobre todas las demás. Analiza únicamente con el texto que te di. Si no alcanza, dilo en vez de completar con lo que creas recordar.",
+      "El modelo no aporta el dato. Aporta el razonamiento sobre el dato: estructura el memorando, encuentra la contradicción entre dos artículos, te obliga a ordenar el argumento.",
+      "Quince minutos. Toma una consulta real de esta semana, busca la norma y corre el prompt. Después hazle la misma pregunta sin pegarle la norma, y compara."
+    ],
+    "texto": "Esta es la lección donde más gente se quema, así que va directo.\n\nSi le preguntas cuál es el porcentaje de retención de ISLR para honorarios profesionales, te va a responder. Con seguridad, con número de artículo y con aspecto de verdad. Esa respuesta te puede costar un reparo, porque ningún modelo tiene garantizado el texto vigente de una providencia del SENIAT.\n\nEl flujo correcto va al revés. Tú buscas la norma en la fuente oficial, la copias completa y se la pegas dentro del prompt. Y agregas una instrucción que manda sobre todas las demás. Analiza únicamente con el texto que te di. Si no alcanza, dilo en vez de completar con lo que creas recordar.\n\nEl modelo no aporta el dato. Aporta el razonamiento sobre el dato: estructura el memorando, encuentra la contradicción entre dos artículos, te obliga a ordenar el argumento.\n\nQuince minutos. Toma una consulta real de esta semana, busca la norma y corre el prompt. Después hazle la misma pregunta sin pegarle la norma, y compara."
+  },
+  {
+    "dia": 4,
+    "leccion": 4,
+    "asunto": "Externa o interna. No se mezclan",
+    "preencabezado": "Una línea de contexto salva dos semanas.",
+    "parrafos": [
+      "Auditoría externa e interna se confunden todo el tiempo, y el costo de confundirlas es alto.",
+      "La externa se ejecuta bajo las NIA adoptadas por la Federación de Colegios de Contadores Públicos de Venezuela, sobre estados preparados bajo VEN-NIF. Su producto es un dictamen y lo que necesita es evidencia suficiente y adecuada. La interna trabaja con marco COSO y las normas del IIA, evalúa control interno y procesos, y su producto son hallazgos y recomendaciones.",
+      "Si pides \"prepárame para la auditoría\" sin decir de cuál, te devuelven un documento híbrido. Lo llevas a la reunión de arranque y el auditor te pide cosas que no están. Tú le entregas evaluaciones de proceso que no le sirven. Dos semanas perdidas por una línea de contexto que faltaba.",
+      "Declara el tipo de encargo en la primera línea del prompt. Y arma el legajo del ajuste por inflación aparte, porque es donde se va el tiempo.",
+      "Quince minutos. Toma la balanza del último cierre anual y pide la relación de documentos del área de mayor saldo."
+    ],
+    "texto": "Auditoría externa e interna se confunden todo el tiempo, y el costo de confundirlas es alto.\n\nLa externa se ejecuta bajo las NIA adoptadas por la Federación de Colegios de Contadores Públicos de Venezuela, sobre estados preparados bajo VEN-NIF. Su producto es un dictamen y lo que necesita es evidencia suficiente y adecuada. La interna trabaja con marco COSO y las normas del IIA, evalúa control interno y procesos, y su producto son hallazgos y recomendaciones.\n\nSi pides \"prepárame para la auditoría\" sin decir de cuál, te devuelven un documento híbrido. Lo llevas a la reunión de arranque y el auditor te pide cosas que no están. Tú le entregas evaluaciones de proceso que no le sirven. Dos semanas perdidas por una línea de contexto que faltaba.\n\nDeclara el tipo de encargo en la primera línea del prompt. Y arma el legajo del ajuste por inflación aparte, porque es donde se va el tiempo.\n\nQuince minutos. Toma la balanza del último cierre anual y pide la relación de documentos del área de mayor saldo."
+  },
+  {
+    "dia": 5,
+    "leccion": 5,
+    "asunto": "15 partidas, no 200 alertas",
+    "preencabezado": "Una lista que nadie revisa no sirve.",
+    "parrafos": [
+      "Doce mil asientos en el ejercicio y el dueño sospecha que se le va dinero por gastos. La revisión manual falla por cansancio: a la partida número ochenta ya nadie está leyendo con atención.",
+      "El problema al automatizarla es el ruido. Acá se registra en dos monedas, se reexpresa y se paga en efectivo lo que después se documenta tarde. Si no le explicas cómo maneja la empresa la multimoneda, te va a marcar como sospechoso todo el mayor de diferencias en cambio. Ahí pierdes el día.",
+      "Entrégale el contexto operativo antes que los datos: niveles de aprobación, proveedores habituales, política cambiaria. Y pide categorías, no una lista plana. Duplicados probables, montos justo por debajo de un umbral de autorización, registros fuera de periodo, terceros nuevos con montos altos.",
+      "Máximo quince partidas priorizadas. Quince se revisan. Doscientas no las revisa nadie.",
+      "Quince minutos. Exporta el mayor de una cuenta de gastos con la columna de usuario incluida. Terminaste bien si hay dos partidas que no habrías visto leyendo el mayor de corrido."
+    ],
+    "texto": "Doce mil asientos en el ejercicio y el dueño sospecha que se le va dinero por gastos. La revisión manual falla por cansancio: a la partida número ochenta ya nadie está leyendo con atención.\n\nEl problema al automatizarla es el ruido. Acá se registra en dos monedas, se reexpresa y se paga en efectivo lo que después se documenta tarde. Si no le explicas cómo maneja la empresa la multimoneda, te va a marcar como sospechoso todo el mayor de diferencias en cambio. Ahí pierdes el día.\n\nEntrégale el contexto operativo antes que los datos: niveles de aprobación, proveedores habituales, política cambiaria. Y pide categorías, no una lista plana. Duplicados probables, montos justo por debajo de un umbral de autorización, registros fuera de periodo, terceros nuevos con montos altos.\n\nMáximo quince partidas priorizadas. Quince se revisan. Doscientas no las revisa nadie.\n\nQuince minutos. Exporta el mayor de una cuenta de gastos con la columna de usuario incluida. Terminaste bien si hay dos partidas que no habrías visto leyendo el mayor de corrido."
+  },
+  {
+    "dia": 6,
+    "leccion": 6,
+    "asunto": "Pégale el archivo sucio",
+    "preencabezado": "Limpiar es el trabajo, no el reporte.",
+    "parrafos": [
+      "Seis horas al mes armando el mismo reporte. Cuatro se van limpiando lo que el sistema exporta. Encabezados repetidos cada cincuenta filas, montos que salen como texto, la misma especialidad escrita de tres maneras.",
+      "Acá está el error que casi todo el mundo comete, y se comete por cortesía: pegarle el archivo ya limpio. Te automatiza el veinte por ciento del trabajo y te deja el ochenta que de verdad duele.",
+      "Muéstrale la basura. Pega treinta filas tal como salen del sistema, con todo el desorden adentro. Después describe el reporte que quieres, campo por campo, y pide tres cosas. La limpieza resuelta sin intervención manual. Las fórmulas con una línea que explique qué hace cada una. Y celdas de cuadre que comparen el total del reporte contra el del archivo fuente.",
+      "Toda tasa y todo parámetro van en una hoja de supuestos. Ninguno escrito dentro de una fórmula.",
+      "Quince minutos. Toma el reporte que más repites y pega el archivo crudo. Terminaste bien si la limpieza quedó resuelta sola."
+    ],
+    "texto": "Seis horas al mes armando el mismo reporte. Cuatro se van limpiando lo que el sistema exporta. Encabezados repetidos cada cincuenta filas, montos que salen como texto, la misma especialidad escrita de tres maneras.\n\nAcá está el error que casi todo el mundo comete, y se comete por cortesía: pegarle el archivo ya limpio. Te automatiza el veinte por ciento del trabajo y te deja el ochenta que de verdad duele.\n\nMuéstrale la basura. Pega treinta filas tal como salen del sistema, con todo el desorden adentro. Después describe el reporte que quieres, campo por campo, y pide tres cosas. La limpieza resuelta sin intervención manual. Las fórmulas con una línea que explique qué hace cada una. Y celdas de cuadre que comparen el total del reporte contra el del archivo fuente.\n\nToda tasa y todo parámetro van en una hoja de supuestos. Ninguno escrito dentro de una fórmula.\n\nQuince minutos. Toma el reporte que más repites y pega el archivo crudo. Terminaste bien si la limpieza quedó resuelta sola."
+  },
+  {
+    "dia": 7,
+    "leccion": 7,
+    "asunto": "¿Hasta cuándo te alcanza la plata?",
+    "preencabezado": "El contrato dice 30. El cliente paga a 52.",
+    "parrafos": [
+      "Una empresa puede reportar ganancia y no tener con qué pagar la quincena. La utilidad contable y la caja se divorcian temprano, y el estado de resultados dice poco sobre la liquidez de la próxima semana.",
+      "Dos reglas para que la previsión sirva.",
+      "La primera: proyecta por moneda separada y consolida al final. Entradas en divisas por un lado, entradas en bolívares por otro, salidas en cada una. Proyectar todo en bolívares nominales a trece semanas no significa nada, porque el bolívar de la semana trece no es el de la semana uno.",
+      "La segunda: usa el comportamiento real de cobranza, no la condición de venta. Si el contrato dice treinta días y el cliente paga a cincuenta y dos, la hoja que use treinta te miente. Todas las semanas. Y en la semana seis no alcanza para la nómina.",
+      "Pide tres escenarios y la semana en que perforas el saldo mínimo en cada uno.",
+      "Quince minutos. Con los saldos de hoy y la cartera por cobrar, consigue esa semana crítica. Ese número solo ya justifica el ejercicio."
+    ],
+    "texto": "Una empresa puede reportar ganancia y no tener con qué pagar la quincena. La utilidad contable y la caja se divorcian temprano, y el estado de resultados dice poco sobre la liquidez de la próxima semana.\n\nDos reglas para que la previsión sirva.\n\nLa primera: proyecta por moneda separada y consolida al final. Entradas en divisas por un lado, entradas en bolívares por otro, salidas en cada una. Proyectar todo en bolívares nominales a trece semanas no significa nada, porque el bolívar de la semana trece no es el de la semana uno.\n\nLa segunda: usa el comportamiento real de cobranza, no la condición de venta. Si el contrato dice treinta días y el cliente paga a cincuenta y dos, la hoja que use treinta te miente. Todas las semanas. Y en la semana seis no alcanza para la nómina.\n\nPide tres escenarios y la semana en que perforas el saldo mínimo en cada uno.\n\nQuince minutos. Con los saldos de hoy y la cartera por cobrar, consigue esa semana crítica. Ese número solo ya justifica el ejercicio."
+  },
+  {
+    "dia": 8,
+    "leccion": 8,
+    "asunto": "El sustraendo que se te olvida",
+    "preencabezado": "Por ahí salen mal las retenciones.",
+    "parrafos": [
+      "Pagarle a un proveedor acá no es emitir un cheque. Son dos retenciones que se calculan sobre bases distintas.",
+      "La de IVA va sobre el impuesto de la factura, no sobre el total. El porcentaje depende de la condición del proveedor y de que la factura cumpla los requisitos formales. La de ISLR depende del concepto del pago y del tipo de beneficiario.",
+      "Y ahí está el punto donde más gente se equivoca. Cuando el beneficiario es persona natural residente, la retención no es una multiplicación simple. Aplicas el porcentaje sobre el pago y después restas el sustraendo. Si el resultado da negativo, no procede retención. Muchos sistemas mal configurados lo olvidan y retienen de más, y el proveedor reclama con razón.",
+      "Los porcentajes los traes tú, verificados en fuente oficial, y se los pegas al prompt. El modelo los aplica, nunca los aporta.",
+      "Quince minutos. Toma diez facturas de la última quincena, con al menos una de persona natural. Si hay diferencia contra lo que retuviste, revisa el sustraendo."
+    ],
+    "texto": "Pagarle a un proveedor acá no es emitir un cheque. Son dos retenciones que se calculan sobre bases distintas.\n\nLa de IVA va sobre el impuesto de la factura, no sobre el total. El porcentaje depende de la condición del proveedor y de que la factura cumpla los requisitos formales. La de ISLR depende del concepto del pago y del tipo de beneficiario.\n\nY ahí está el punto donde más gente se equivoca. Cuando el beneficiario es persona natural residente, la retención no es una multiplicación simple. Aplicas el porcentaje sobre el pago y después restas el sustraendo. Si el resultado da negativo, no procede retención. Muchos sistemas mal configurados lo olvidan y retienen de más, y el proveedor reclama con razón.\n\nLos porcentajes los traes tú, verificados en fuente oficial, y se los pegas al prompt. El modelo los aplica, nunca los aporta.\n\nQuince minutos. Toma diez facturas de la última quincena, con al menos una de persona natural. Si hay diferencia contra lo que retuviste, revisa el sustraendo."
+  },
+  {
+    "dia": 9,
+    "leccion": 9,
+    "asunto": "¿Fue gestión o fue la inflación?",
+    "preencabezado": "Sin descomponer, el comité concluye mal.",
+    "parrafos": [
+      "El análisis de desviaciones de manual supone una moneda estable. Acá no la hay, y por eso el desglose clásico de precio contra volumen se queda corto.",
+      "Una desviación favorable en ventas puede ser puro efecto de inflación, sin un cliente nuevo. Una desfavorable en costos puede ser solo la tasa moviéndose, con la operación funcionando igual de bien. Si presentas la diferencia sin descomponer, alguien improvisa una explicación en la reunión y esa versión improvisada se vuelve la oficial.",
+      "Acá el desglose útil son cuatro efectos: volumen, precio real, inflación y tipo de cambio. Y cada desviación se clasifica como controlable por la gestión o atribuible al entorno, con la razón escrita en una oración.",
+      "Decide antes contra qué comparas. Un presupuesto en bolívares nominales armado hace ocho meses ya no significa nada. Compara contra uno reexpresado o contra uno en divisas.",
+      "Quince minutos. Toma tu línea con la desviación más grande. Terminaste bien si puedes decir en una oración qué parte fue gestión y qué parte fue entorno."
+    ],
+    "texto": "El análisis de desviaciones de manual supone una moneda estable. Acá no la hay, y por eso el desglose clásico de precio contra volumen se queda corto.\n\nUna desviación favorable en ventas puede ser puro efecto de inflación, sin un cliente nuevo. Una desfavorable en costos puede ser solo la tasa moviéndose, con la operación funcionando igual de bien. Si presentas la diferencia sin descomponer, alguien improvisa una explicación en la reunión y esa versión improvisada se vuelve la oficial.\n\nAcá el desglose útil son cuatro efectos: volumen, precio real, inflación y tipo de cambio. Y cada desviación se clasifica como controlable por la gestión o atribuible al entorno, con la razón escrita en una oración.\n\nDecide antes contra qué comparas. Un presupuesto en bolívares nominales armado hace ocho meses ya no significa nada. Compara contra uno reexpresado o contra uno en divisas.\n\nQuince minutos. Toma tu línea con la desviación más grande. Terminaste bien si puedes decir en una oración qué parte fue gestión y qué parte fue entorno."
+  },
+  {
+    "dia": 10,
+    "leccion": 10,
+    "asunto": "Tu cliente no abrió el Excel",
+    "preencabezado": "El hallazgo estaba en la pestaña 6.",
+    "parrafos": [
+      "Un análisis impecable en ocho pestañas de Excel. El dueño abrió la primera, no entendió y cerró el archivo. Dos semanas después tomó la decisión que el análisis desaconsejaba. La advertencia estaba en la pestaña seis, fila cuarenta y dos.",
+      "El trabajo contable ya lo hiciste. Lo que falta es que se note, y eso es una decisión de forma.",
+      "Tres reglas. La conclusión va primero, antes que cualquier metodología, en media página que se entienda leyéndola sola. El cuerpo no pasa de dos páginas, y lo que no quepa se va a anexo, porque sin límite no hay jerarquía. Y va una sección de alcance y limitaciones: sobre qué información trabajaste, con qué fecha de corte y qué no revisaste.",
+      "Esa última sección no es burocracia. Es lo que te protege cuando el cliente tome una decisión y algo salga distinto.",
+      "Quince minutos. Toma el último análisis que entregaste como archivo suelto y conviértelo. Terminaste bien si alguien que no es contador entiende el resumen ejecutivo sin pedirte una aclaratoria."
+    ],
+    "texto": "Un análisis impecable en ocho pestañas de Excel. El dueño abrió la primera, no entendió y cerró el archivo. Dos semanas después tomó la decisión que el análisis desaconsejaba. La advertencia estaba en la pestaña seis, fila cuarenta y dos.\n\nEl trabajo contable ya lo hiciste. Lo que falta es que se note, y eso es una decisión de forma.\n\nTres reglas. La conclusión va primero, antes que cualquier metodología, en media página que se entienda leyéndola sola. El cuerpo no pasa de dos páginas, y lo que no quepa se va a anexo, porque sin límite no hay jerarquía. Y va una sección de alcance y limitaciones: sobre qué información trabajaste, con qué fecha de corte y qué no revisaste.\n\nEsa última sección no es burocracia. Es lo que te protege cuando el cliente tome una decisión y algo salga distinto.\n\nQuince minutos. Toma el último análisis que entregaste como archivo suelto y conviértelo. Terminaste bien si alguien que no es contador entiende el resumen ejecutivo sin pedirte una aclaratoria."
+  },
+  {
+    "dia": 11,
+    "leccion": 11,
+    "asunto": "La multa llegó de la alcaldía",
+    "preencabezado": "Lo del SENIAT estaba impecable.",
+    "parrafos": [
+      "Un contador con todo al día ante el SENIAT recibió una multa municipal. La ordenanza del municipio donde está la sucursal exige una declaración que la de la casa matriz no pide. Se enteró con la fiscalización, y la multa salió más cara que los honorarios del año.",
+      "El mapa de obligaciones de una empresa venezolana tiene tres capas que no se hablan entre ellas. Nacional, con el SENIAT. Municipal, con una ordenanza distinta por cada alcaldía donde haya actividad. Y parafiscal, con IVSS, INCES, FAOV y el régimen prestacional de empleo, cada uno con su portal y su periodicidad.",
+      "Al armar la matriz, lista todas las ubicaciones físicas: sucursales, depósitos y puntos de venta. Ahí está el hueco por donde entran las fiscalizaciones que nadie vio venir.",
+      "Y que las fechas y alícuotas salgan marcadas como [VERIFICAR], no como dato. Esas las confirmas tú en la ordenanza vigente.",
+      "Quince minutos. Toma tu cliente con más de una ubicación. Terminaste bien si aparece una obligación que hoy nadie atiende."
+    ],
+    "texto": "Un contador con todo al día ante el SENIAT recibió una multa municipal. La ordenanza del municipio donde está la sucursal exige una declaración que la de la casa matriz no pide. Se enteró con la fiscalización, y la multa salió más cara que los honorarios del año.\n\nEl mapa de obligaciones de una empresa venezolana tiene tres capas que no se hablan entre ellas. Nacional, con el SENIAT. Municipal, con una ordenanza distinta por cada alcaldía donde haya actividad. Y parafiscal, con IVSS, INCES, FAOV y el régimen prestacional de empleo, cada uno con su portal y su periodicidad.\n\nAl armar la matriz, lista todas las ubicaciones físicas: sucursales, depósitos y puntos de venta. Ahí está el hueco por donde entran las fiscalizaciones que nadie vio venir.\n\nY que las fechas y alícuotas salgan marcadas como [VERIFICAR], no como dato. Esas las confirmas tú en la ordenanza vigente.\n\nQuince minutos. Toma tu cliente con más de una ubicación. Terminaste bien si aparece una obligación que hoy nadie atiende."
+  },
+  {
+    "dia": 12,
+    "leccion": 12,
+    "asunto": "120 de tus 180 partidas son ruido",
+    "preencabezado": "Y las 20 que importan están escondidas.",
+    "parrafos": [
+      "Ciento ochenta partidas conciliatorias en el mes. Ciento veinte son débitos de IGTF y comisiones que ya sabes que están bien. Otras cuarenta son diferencias de tasa entre la fecha de operación y la de liquidación, que tampoco son errores. Las veinte que de verdad requieren atención están mezcladas entre las otras ciento sesenta.",
+      "Si automatizas la conciliación sin declarar eso, te devuelve las ciento ochenta partidas con la misma importancia y vuelves a filtrar a mano. Automatizaste la parte fácil.",
+      "Declara las categorías conocidas antes de comparar: IGTF, comisiones, mantenimiento, intereses, diferencia de tasa. Pide que las agrupe y te dé el total de cada una, sin listarlas una por una. Y que la salida sea solo lo que requiere investigación real, con el dato que haría falta para resolver cada caso.",
+      "Explícale también cómo registra la empresa las operaciones en divisas. Sin eso, la diferencia entre fecha de operación y de liquidación le va a parecer un error.",
+      "Quince minutos. Terminaste bien si la lista por investigar quedó en menos de la cuarta parte del total."
+    ],
+    "texto": "Ciento ochenta partidas conciliatorias en el mes. Ciento veinte son débitos de IGTF y comisiones que ya sabes que están bien. Otras cuarenta son diferencias de tasa entre la fecha de operación y la de liquidación, que tampoco son errores. Las veinte que de verdad requieren atención están mezcladas entre las otras ciento sesenta.\n\nSi automatizas la conciliación sin declarar eso, te devuelve las ciento ochenta partidas con la misma importancia y vuelves a filtrar a mano. Automatizaste la parte fácil.\n\nDeclara las categorías conocidas antes de comparar: IGTF, comisiones, mantenimiento, intereses, diferencia de tasa. Pide que las agrupe y te dé el total de cada una, sin listarlas una por una. Y que la salida sea solo lo que requiere investigación real, con el dato que haría falta para resolver cada caso.\n\nExplícale también cómo registra la empresa las operaciones en divisas. Sin eso, la diferencia entre fecha de operación y de liquidación le va a parecer un error.\n\nQuince minutos. Terminaste bien si la lista por investigar quedó en menos de la cuarta parte del total."
+  },
+  {
+    "dia": 13,
+    "leccion": 13,
+    "asunto": "El artículo 142 tiene dos vías",
+    "preencabezado": "Calcular una sola sale caro.",
+    "parrafos": [
+      "La nómina es donde un error se convierte en demanda laboral. El punto donde más se falla es el artículo 142 de la LOTTT. El sistema es dual y mucha gente calcula una sola de las dos vías.",
+      "Por un lado corre la garantía de prestaciones, que se deposita trimestralmente. Por el otro corre el cálculo retroactivo, sobre el último salario integral del trabajador. Al terminar la relación se comparan las dos y se paga la mayor.",
+      "Quien paga solo lo acumulado en el fideicomiso casi siempre paga de menos. Con inflación de por medio, el retroactivo al último salario suele ganar por mucho. El trabajador consulta, aparece la diferencia, y la empresa termina pagando eso más el costo de la discusión.",
+      "El salario integral es la otra trampa. Salario normal más alícuota de utilidades más alícuota de bono vacacional. Si lo construyes mal, queda mal todo lo que venga después.",
+      "Quince minutos. Toma una liquidación que ya calculaste y corre las dos vías. Fíjate cuál gana."
+    ],
+    "texto": "La nómina es donde un error se convierte en demanda laboral. El punto donde más se falla es el artículo 142 de la LOTTT. El sistema es dual y mucha gente calcula una sola de las dos vías.\n\nPor un lado corre la garantía de prestaciones, que se deposita trimestralmente. Por el otro corre el cálculo retroactivo, sobre el último salario integral del trabajador. Al terminar la relación se comparan las dos y se paga la mayor.\n\nQuien paga solo lo acumulado en el fideicomiso casi siempre paga de menos. Con inflación de por medio, el retroactivo al último salario suele ganar por mucho. El trabajador consulta, aparece la diferencia, y la empresa termina pagando eso más el costo de la discusión.\n\nEl salario integral es la otra trampa. Salario normal más alícuota de utilidades más alícuota de bono vacacional. Si lo construyes mal, queda mal todo lo que venga después.\n\nQuince minutos. Toma una liquidación que ya calculaste y corre las dos vías. Fíjate cuál gana."
+  },
+  {
+    "dia": 14,
+    "leccion": 14,
+    "asunto": "Antes de conectar el correo, lee esto",
+    "preencabezado": "El secreto profesional sigue siendo tuyo.",
+    "parrafos": [
+      "Un escritorio de dos socios respondió un correo con prisa y adjuntó el estado de resultados de otro cliente del mismo sector. La conversación que vino después fue incómoda y cara. El problema no fue de herramienta. Fue de flujo: demasiados saltos manuales entre ventanas.",
+      "Trabajar dentro de Excel y del correo elimina buena parte de esos saltos. Pero acá manejas RIF, saldos, nóminas con nombres y cédulas. El secreto profesional del contador público aplica igual cuando la herramienta es nueva.",
+      "Por eso hoy no hay entregable para un cliente. El entregable es tuyo: una regla escrita de qué información puedes procesar tal cual, cuál anonimizas antes y cuál no sale de tu equipo.",
+      "El orden importa. Primero la regla escrita. Después un archivo de prueba sin datos reales, para aprender el comportamiento. Y solo entonces el trabajo del día. Conectar todo el primer día para probar es al revés.",
+      "Quince minutos. Escribe las cinco tareas que más saltos entre ventanas te cuestan y define tu regla."
+    ],
+    "texto": "Un escritorio de dos socios respondió un correo con prisa y adjuntó el estado de resultados de otro cliente del mismo sector. La conversación que vino después fue incómoda y cara. El problema no fue de herramienta. Fue de flujo: demasiados saltos manuales entre ventanas.\n\nTrabajar dentro de Excel y del correo elimina buena parte de esos saltos. Pero acá manejas RIF, saldos, nóminas con nombres y cédulas. El secreto profesional del contador público aplica igual cuando la herramienta es nueva.\n\nPor eso hoy no hay entregable para un cliente. El entregable es tuyo: una regla escrita de qué información puedes procesar tal cual, cuál anonimizas antes y cuál no sale de tu equipo.\n\nEl orden importa. Primero la regla escrita. Después un archivo de prueba sin datos reales, para aprender el comportamiento. Y solo entonces el trabajo del día. Conectar todo el primer día para probar es al revés.\n\nQuince minutos. Escribe las cinco tareas que más saltos entre ventanas te cuestan y define tu regla."
+  },
+  {
+    "dia": 15,
+    "leccion": 15,
+    "asunto": "Por qué el 1 abre el 30% de las cifras",
+    "preencabezado": "Y qué hacer cuando no lo hace.",
+    "parrafos": [
+      "En conjuntos grandes de cifras que ocurren de forma natural, el primer dígito no se reparte parejo. El 1 aparece cerca del treinta por ciento de las veces. El 2, alrededor del dieciocho. El 9, menos del cinco. Suena raro y se cumple en facturas, poblaciones y cuentas de servicios.",
+      "La utilidad es esta: cuando una persona inventa cifras, tiende a repartir los dígitos parejo. Esa mano se nota contra la distribución esperada.",
+      "Dos advertencias locales. La prueba necesita muchos datos que abarquen varios órdenes de magnitud y sin topes impuestos. Un conjunto donde casi todo cae entre 900 y 1.100 no sirve. Y córrela sobre los montos originales de la operación, porque la reexpresión y la conversión a tasa alteran la distribución sin que haya nada irregular.",
+      "Lo más importante: una desviación no es un hallazgo. Es una razón para revisar ciento sesenta documentos. La evidencia es el respaldo, no la gráfica.",
+      "Quince minutos. Toma quinientos pagos con montos variados, sin convertir, y corre la prueba."
+    ],
+    "texto": "En conjuntos grandes de cifras que ocurren de forma natural, el primer dígito no se reparte parejo. El 1 aparece cerca del treinta por ciento de las veces. El 2, alrededor del dieciocho. El 9, menos del cinco. Suena raro y se cumple en facturas, poblaciones y cuentas de servicios.\n\nLa utilidad es esta: cuando una persona inventa cifras, tiende a repartir los dígitos parejo. Esa mano se nota contra la distribución esperada.\n\nDos advertencias locales. La prueba necesita muchos datos que abarquen varios órdenes de magnitud y sin topes impuestos. Un conjunto donde casi todo cae entre 900 y 1.100 no sirve. Y córrela sobre los montos originales de la operación, porque la reexpresión y la conversión a tasa alteran la distribución sin que haya nada irregular.\n\nLo más importante: una desviación no es un hallazgo. Es una razón para revisar ciento sesenta documentos. La evidencia es el respaldo, no la gráfica.\n\nQuince minutos. Toma quinientos pagos con montos variados, sin convertir, y corre la prueba."
+  },
+  {
+    "dia": 16,
+    "leccion": 16,
+    "asunto": "El mensaje de cobranza que sí funciona",
+    "preencabezado": "Y por qué el tuyo no está funcionando.",
+    "parrafos": [
+      "Cuatro meses de honorarios sin cobrar. Lo mencionaste dos veces por WhatsApp, de pasada, entre otros temas y con tono de disculpa. No ha pasado nada, y no va a pasar.",
+      "El problema no es la voluntad del cliente. Es que un mensaje de pasada se responde de pasada. Nunca hubo un mensaje con monto, con periodos, con fecha y con una consecuencia.",
+      "Cuatro cosas tiene que llevar. Un dato concreto: cuánto y de qué periodos. Una fecha específica. La consecuencia de que no ocurra nada. Y una sola acción de cierre, porque dos opciones diluyen la respuesta.",
+      "Pide tres versiones del mismo mensaje: cordial, firme y final. La diferencia va en la firmeza, no en el contenido. Guárdalas como plantillas y así no vuelves a escribir bajo presión.",
+      "Y nada de disculpas por cobrar lo que trabajaste. Cobrar es parte del servicio. La cartera vencida daña la relación mucho más que un correo directo.",
+      "Quince minutos. Escoge la conversación que llevas más tiempo posponiendo y mándala hoy. Guardada en borradores no cuenta."
+    ],
+    "texto": "Cuatro meses de honorarios sin cobrar. Lo mencionaste dos veces por WhatsApp, de pasada, entre otros temas y con tono de disculpa. No ha pasado nada, y no va a pasar.\n\nEl problema no es la voluntad del cliente. Es que un mensaje de pasada se responde de pasada. Nunca hubo un mensaje con monto, con periodos, con fecha y con una consecuencia.\n\nCuatro cosas tiene que llevar. Un dato concreto: cuánto y de qué periodos. Una fecha específica. La consecuencia de que no ocurra nada. Y una sola acción de cierre, porque dos opciones diluyen la respuesta.\n\nPide tres versiones del mismo mensaje: cordial, firme y final. La diferencia va en la firmeza, no en el contenido. Guárdalas como plantillas y así no vuelves a escribir bajo presión.\n\nY nada de disculpas por cobrar lo que trabajaste. Cobrar es parte del servicio. La cartera vencida daña la relación mucho más que un correo directo.\n\nQuince minutos. Escoge la conversación que llevas más tiempo posponiendo y mándala hoy. Guardada en borradores no cuenta."
+  },
+  {
+    "dia": 17,
+    "leccion": 17,
+    "asunto": "Nunca modeles en bolívares nominales",
+    "preencabezado": "La TIR de tres dígitos es una ilusión.",
+    "parrafos": [
+      "Un modelo a cinco años en bolívares nominales produce cifras enormes que no significan nada. Los ingresos futuros aplastan la inversión inicial, la tasa interna de retorno sale en tres dígitos y un proyecto malo se ve rentable.",
+      "A un grupo le presentaron uno así, con crecimiento de sesenta por ciento anual. Un socio preguntó cuánto de ese sesenta era crecimiento y cuánto era inflación. Nadie supo responder.",
+      "Dos alternativas válidas. Modelar en divisas, que funciona bien cuando la operación tiene referencia en dólares. O modelar en unidades físicas y aplicar precios al final, que es más robusto para negocios con producción: toneladas, unidades, horas hombre.",
+      "Cuida también el capital de trabajo. Con inflación alta se come el efectivo más rápido de lo que casi todo modelo anticipa. Reponer el inventario cuesta más de lo que costó el que vendiste.",
+      "Quince minutos. Toma un proyecto que estés evaluando, define la unidad de medida y consigue el punto de quiebre. Ese número es el que se discute en la junta, no la TIR."
+    ],
+    "texto": "Un modelo a cinco años en bolívares nominales produce cifras enormes que no significan nada. Los ingresos futuros aplastan la inversión inicial, la tasa interna de retorno sale en tres dígitos y un proyecto malo se ve rentable.\n\nA un grupo le presentaron uno así, con crecimiento de sesenta por ciento anual. Un socio preguntó cuánto de ese sesenta era crecimiento y cuánto era inflación. Nadie supo responder.\n\nDos alternativas válidas. Modelar en divisas, que funciona bien cuando la operación tiene referencia en dólares. O modelar en unidades físicas y aplicar precios al final, que es más robusto para negocios con producción: toneladas, unidades, horas hombre.\n\nCuida también el capital de trabajo. Con inflación alta se come el efectivo más rápido de lo que casi todo modelo anticipa. Reponer el inventario cuesta más de lo que costó el que vendiste.\n\nQuince minutos. Toma un proyecto que estés evaluando, define la unidad de medida y consigue el punto de quiebre. Ese número es el que se discute en la junta, no la TIR."
+  },
+  {
+    "dia": 18,
+    "leccion": null,
+    "asunto": "Terminaste. Acá está tu certificado",
+    "preencabezado": "Y lo que falta para que valga algo.",
+    "parrafos": [
+      "Diecisiete lecciones. Llegaste al final.",
+      "Tu certificado está adjunto, con espacio para tu nombre y la fecha. Pero seamos claros sobre qué vale y qué no.",
+      "El certificado no dice que sepas usar inteligencia artificial. Dice que hiciste los ocho entregables de la evaluación final sobre información real de tu escritorio. Y que los verificaste tú antes de darlos por terminados. Si todavía no los hiciste, el curso está a medias. Leer las lecciones fue la parte fácil.",
+      "Los ocho están en el PDF. Análisis financiero comparado, lista de control de cierre, memorando fiscal y paquete de auditoría. Cálculo de retenciones, previsión de caja, liquidación de prestaciones e informe para cliente. Uno por semana durante dos meses es un ritmo razonable.",
+      "Una última cosa. Las cuatro reglas del Módulo 0 no vencen. La norma la traes tú, declaras el contexto, verificas antes de firmar y pruebas contra un caso que ya cerraste. Esas cuatro son lo que separa usar la herramienta de que la herramienta te use.",
+      "Escríbeme a @contave y cuéntame qué te funcionó."
+    ],
+    "texto": "Diecisiete lecciones. Llegaste al final.\n\nTu certificado está adjunto, con espacio para tu nombre y la fecha. Pero seamos claros sobre qué vale y qué no.\n\nEl certificado no dice que sepas usar inteligencia artificial. Dice que hiciste los ocho entregables de la evaluación final sobre información real de tu escritorio. Y que los verificaste tú antes de darlos por terminados. Si todavía no los hiciste, el curso está a medias. Leer las lecciones fue la parte fácil.\n\nLos ocho están en el PDF. Análisis financiero comparado, lista de control de cierre, memorando fiscal y paquete de auditoría. Cálculo de retenciones, previsión de caja, liquidación de prestaciones e informe para cliente. Uno por semana durante dos meses es un ritmo razonable.\n\nUna última cosa. Las cuatro reglas del Módulo 0 no vencen. La norma la traes tú, declaras el contexto, verificas antes de firmar y pruebas contra un caso que ya cerraste. Esas cuatro son lo que separa usar la herramienta de que la herramienta te use.\n\nEscríbeme a @contave y cuéntame qué te funcionó."
+  }
+]

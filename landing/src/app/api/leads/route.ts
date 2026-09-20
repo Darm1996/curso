@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { clienteSupabase } from '@/lib/supabase';
 import { validarLead } from '@/lib/validacion';
+import { SECUENCIA } from '@/lib/correo';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -69,5 +70,12 @@ export async function GET() {
     configurado: true,
     alcanzable: !error,
     detalle: error ? error.message : null,
+    correo: {
+      // Solo presencia, nunca el valor.
+      clave: Boolean(process.env.RESEND_API_KEY),
+      remitente: process.env.CORREO_REMITENTE || 'onboarding@resend.dev (prueba)',
+      secuencia: SECUENCIA.length,
+    },
+    cron: Boolean(process.env.CRON_SECRET),
   });
 }

@@ -47,8 +47,8 @@ export default function Captura() {
       setEstado('listo');
       setMensaje(
         datos.repetido
-          ? 'Ese correo ya estaba registrado. Vas a recibir la biblioteca igual.'
-          : 'Listo. Revisa tu correo en los próximos minutos.',
+          ? 'Ese correo ya estaba registrado. La secuencia sigue su curso.'
+          : 'Listo. El primer correo te llega dentro de la próxima hora.',
       );
     } catch {
       setEstado('error');

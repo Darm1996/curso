@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "sync-temario": "node scripts/sync-temario.mjs",
-    "prebuild": "npm run sync-temario",
+    "sync-emails": "node scripts/sync-emails.mjs",
+    "prebuild": "npm run sync-temario && npm run sync-emails",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
